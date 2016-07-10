@@ -1,26 +1,13 @@
-body {
-    background-color: black;
-}
-
-h1, h2, h3, h4
-{
-    font-family: Verdana;
-    color: white;
-}
-
-p {
-    font-family: Garamond;
-    color: white;
-}
-
-footer {
+html {
     background-color: black;
     color: white;
-    clear: both;
+}
+
+#banner {
     text-align: center;
-    padding: 5px;
 }
 
+/* Navbar */
 ul {
     list-style-type: none;
     margin: 0;
@@ -46,28 +33,9 @@ li a:hover {
     background-color: #111;
 }
 
-#image
-{
-    width: 100%;
-    float: left;
-}
-
-#description
-{
-    width: 700px;
-    height: 512px;
-    float: left;
-}
-
-#description2
-{
-    color: black;
-    width: 339px;
-    height: 200px;
-    float: left;
-}
-
-#projects
-{
+/* Footer */
+#footer {
     color: white;
+    text-align: center;
+    padding: 5px;
 }

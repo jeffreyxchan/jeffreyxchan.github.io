@@ -1,0 +1,83 @@
+html {
+    background-color: black;
+}
+
+h1, h2, h3, h4
+{
+    font-family: Verdana;
+    color: white;
+}
+
+p {
+    font-family: Garamond;
+    color: white;
+}
+
+#footer {
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: Garamond;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* Home Page */
+#home-banner {
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+#announcements {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#image
+{
+    width: 100%;
+    float: left;
+}
+
+#description
+{
+    width: 700px;
+    height: 512px;
+    float: left;
+}
+
+#description2
+{
+    color: black;
+    width: 339px;
+    height: 200px;
+    float: left;
+}
+
+#projects
+{
+    color: white;
+}

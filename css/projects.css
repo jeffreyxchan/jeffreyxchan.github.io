@@ -1,0 +1,41 @@
+html {
+    background-color: black;
+    color: white;
+}
+
+#banner {
+    text-align: center;
+}
+
+/* Navbar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-family: Garamond;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/* Footer */
+#footer {
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
