@@ -1,6 +1,8 @@
 html {
     background-color: black;
     color: white;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 #banner {
@@ -31,6 +33,11 @@ li a {
 
 li a:hover {
     background-color: #111;
+}
+
+img {
+    width: 25%;
+    height: 25%;
 }
 
 /* Footer */

@@ -1,23 +1,15 @@
 html {
     background-color: black;
-}
-
-h1, h2, h3, h4
-{
-    font-family: Verdana;
+    padding-left: 5%;
+    padding-right: 5%;
     color: white;
 }
 
-p {
-    font-family: Garamond;
-    color: white;
-}
-
-#footer {
-    color: white;
+#banner {
     text-align: center;
-    padding: 5px;
 }
+
+/* Navigation Bar */
 
 ul {
     list-style-type: none;
@@ -44,40 +36,8 @@ li a:hover {
     background-color: #111;
 }
 
-/* Home Page */
-#home-banner {
-    padding-left: 10%;
-    padding-right: 10%;
-    text-align: center;
-}
-
-#announcements {
-    padding-left: 10%;
-    padding-right: 10%;
-}
-
-#image
-{
-    width: 100%;
-    float: left;
-}
-
-#description
-{
-    width: 700px;
-    height: 512px;
-    float: left;
-}
-
-#description2
-{
-    color: black;
-    width: 339px;
-    height: 200px;
-    float: left;
-}
-
-#projects
-{
+#footer {
     color: white;
+    text-align: center;
+    padding: 5px;
 }
