@@ -1,43 +1,38 @@
-html {
+/* GENERAL ELEMENTS */
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin: 0px;
+}
+
+/* NAVBAR */
+
+.navbar {
+    width: 100%;
+    background-color: lightgray;
+    
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+/* BANNERS */
+
+.banner {
+    width: 100%;
     background-color: black;
-    color: white;
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-#banner {
+    padding: 120px 0px;
+    
+    color: #fff;
     text-align: center;
+    font-size: 50px;
 }
 
-/* Navbar */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    font-family: Garamond;
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 50px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #111;
-}
-
-/* Footer */
-#footer {
-    color: white;
-    text-align: center;
-    padding: 5px;
+.banner #sub-header {
+    font-size: 25px;
+    margin-top: 60px;
 }
