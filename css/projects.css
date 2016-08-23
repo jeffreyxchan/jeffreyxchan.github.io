@@ -41,7 +41,8 @@ p {
     padding: 16px 30px;
 }
 
-.navbar-content li.active {
+.navbar-content li.active,
+.navbar-content li:hover {
     background-color: #404040;
 }
 
