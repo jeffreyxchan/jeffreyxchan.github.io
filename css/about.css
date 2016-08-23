@@ -1,12 +1,12 @@
 /* GENERAL HTML ELEMENTS */
 
-body {
+body, p {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
-    margin: 0;
+#banner {
+    text-align: center;
 }
 
 /* NAVBAR */
@@ -46,21 +46,11 @@ p {
     background-color: #404040;
 }
 
-/* ANNOUNCEMENTS */
+/* PAGE CONTENT */
 
-#announcements {
-    width: 85%;
-    max-width: 760px;
-    margin: 50px auto;
-}
-
-#announcements #banner {
-    text-align: center;
-}
-
-.announcement h2,
-.announcement p {
-    line-height: 1.5;
+img {
+    width: 25%;
+    height: 25%;
 }
 
 /* FOOTER */
