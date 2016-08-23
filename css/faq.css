@@ -15,7 +15,7 @@ p {
     background-color: #1a1a1a;
     
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     height: 60px;
     
     padding: 0% 3%;
@@ -28,7 +28,7 @@ p {
 
 .navbar-header {
     float: left;
-    padding: 16px 20px;
+    padding: 18px 20px;
 }
 
 .navbar-content ul {
@@ -38,7 +38,7 @@ p {
 
 .navbar-content li {
     float: right;
-    padding: 16px 30px;
+    padding: 18px 30px;
 }
 
 .navbar-content li.active,
