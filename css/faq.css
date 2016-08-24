@@ -47,6 +47,7 @@ p {
 .content hr {
     width: 300px;
     color: black;
+    border: solid #808080 1px;
 }
 
 .question {
