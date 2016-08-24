@@ -3,27 +3,43 @@
 <head>
     <title>FAQ - Jeffrey Chan</title>
     <meta charset="utf-8" />
+    
+    <!-- jQuery -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
 
-    <!-- BOOTSTRAP -->
-    <link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js' rel='stylesheet' type='text/css' />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- PERSONAL STYLESHEETS -->
     <link href='../css/faq.css' type='text/css' rel='stylesheet' />
+    <link href='../css/navbar.css' type='text/css' rel='stylesheet' />
+    <link href='../css/footer.css' type='text/css' rel='stylesheet' />
+    
 </head>
 <body>
     <!-- NAVBAR -->
-    <div class='navbar'>
-        <div class='navbar-header'><a href='../index.html'><b>Jeffrey Chan</b></a></div>
-        <div class='navbar-content'>
-            <ul>
-                <li><a href='#'><b>Extra</b></a></li>
-                <li class='active'><a href='../html/faq.html'><b>FAQ</b></a></li>
-                <li><a href='../html/projects.html'><b>Projects</b></a></li>
-                <li><a href='../html/about.html'><b>About</b></a></li>
-                <li><a href='../index.html'><b>Home</b></a></li>
-            </ul>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                <a class="navbar-brand" href="../index.html"><b>Jeffrey Chan</b></a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="../index.html"><b>Home</b></a></li>
+                    <li><a href="../html/about.html"><b>About</b></a></li>
+                    <li><a href='../html/projects.html'><b>Projects</b></a></li>
+                    <li class='active'><a href='../html/faq.html'><b>FAQ</b></a></li>
+                    <li><a href='#'><b>Extra</b></a></li>
+                </ul>
+            </div>
         </div>
-    </div>
+    </nav>
     
     <!-- BANNER -->
     <div class='banner'>
@@ -34,11 +50,11 @@
     <!-- CONTENT -->
     <div class="content">
         <!-- Personal -->
-        <h1>Personal</h1>
+        <h1><b>Personal</b></h1>
         <hr />
         
         <div class='question'>
-            <h2>Why do some people call you BJ?</h2>
+            <h2><b>Why do some people call you BJ?</b></h2>
             <p>It's my nickname.</p>
             <p>I used to play badminton with my friend Jeffrey Chen and our coach needed a way to differentiate us since we have the same name. Our coach was going to call us Jeffrey 1 and Jeffrey 2 until our friend Stephen pointed at me and said:</p>
             <p style='text-align: center;'><i>"Why don't we call this one Big Jeffrey or BJ for short?"</i></p>
@@ -113,7 +129,7 @@
     
     <!-- FOOTER -->
     <div class='footer'>
-        <p><b>Coded by Jeffrey Chan | Check out my <a href='https://github.com/jeffreyxchan' target='_blank'>Github</a>!</b></p>
+        <p>Coded by Jeffrey Chan | Check out my <a href='https://github.com/jeffreyxchan' target='_blank'>Github</a>!</p>
     </div>
 </body>
 </html>

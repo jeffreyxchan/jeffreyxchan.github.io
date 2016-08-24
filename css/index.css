@@ -9,24 +9,6 @@ p, h1 {
     margin: 0;
 }
 
-/* NAVBAR */
-
-.navbar {
-    margin: 0;
-    border-radius: 0;
-    padding: 0px 3%;
-    
-    font-size: 20px;
-}
-
-.navbar-brand {
-    font-size: 20px;
-}
-
-.nav li {
-    padding: 0px 10px;
-}
-
 /* BILLBOARD */
 
 .billboard {
@@ -77,25 +59,13 @@ p, h1 {
     margin-bottom: 30px;
 }
 
+#announcements #banner h1,
+.announcement h2 {
+    font-weight: bold;
+}
+
 .announcement p {
     line-height: 1.5;
     font-size: 20px;
     padding: 20px 0px;
-}
-
-/* FOOTER */
-
-.footer {
-    width: 100%;
-    background-color: #0e87c4;
-    padding: 25px 0 25px 0;
-    
-    color: white;
-    text-align: center;
-    font-size: 16px;
-}
-
-.footer a {
-    text-decoration: underline;
-    color: #fff;
 }

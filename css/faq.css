@@ -9,43 +9,6 @@ p {
     margin: 0px;
 }
 
-/* NAVBAR */
-
-.navbar {
-    background-color: #1a1a1a;
-    
-    color: white;
-    font-size: 20px;
-    height: 60px;
-    
-    padding: 0% 3%;
-}
-
-.navbar a {
-    text-decoration: none;
-    color: white;
-}
-
-.navbar-header {
-    float: left;
-    padding: 18px 20px;
-}
-
-.navbar-content ul {
-    list-style: none;
-    margin: 0;
-}
-
-.navbar-content li {
-    float: right;
-    padding: 18px 30px;
-}
-
-.navbar-content li.active,
-.navbar-content li:hover {
-    background-color: #404040;
-}
-
 /* BANNERS */
 
 .banner {
@@ -78,10 +41,12 @@ p {
     margin: 0;
     
     text-align: center;
+    font-weight: bold;
 }
 
 .content hr {
     width: 300px;
+    color: black;
 }
 
 .question {
@@ -91,6 +56,7 @@ p {
 .question h2 {
     margin: 0;
     padding: 10px 0;
+    font-weight: bold;
 }
 
 .question p {
@@ -110,20 +76,4 @@ p {
 
 .question img {
     width: 50%;
-}
-
-/* FOOTER */
-
-.footer {
-    width: 100%;
-    background-color: #0e87c4;
-    padding: 25px 0 25px 0;
-    
-    color: white;
-    text-align: center;
-}
-
-.footer a {
-    text-decoration: underline;
-    color: #fff;
 }
