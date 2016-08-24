@@ -13,12 +13,13 @@ p, h1 {
 
 .navbar {
     background-color: #1a1a1a;
+    padding: 0% 3%;
+    margin: 0;
+    border-radius: 0;
     
     color: white;
     font-size: 20px;
     height: 60px;
-    
-    padding: 0% 3%;
 }
 
 .navbar a {
@@ -38,7 +39,8 @@ p, h1 {
 
 .navbar-content li {
     float: right;
-    padding: 18px 30px;
+    padding: 15.5px 30px;
+    margin: 0;
 }
 
 .navbar-content li.active,
@@ -93,11 +95,13 @@ p, h1 {
 
 #announcements #banner {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .announcement p {
     line-height: 1.5;
     font-size: 20px;
+    padding: 20px 0px;
 }
 
 /* FOOTER */
@@ -109,6 +113,7 @@ p, h1 {
     
     color: white;
     text-align: center;
+    font-size: 16px;
 }
 
 .footer a {
