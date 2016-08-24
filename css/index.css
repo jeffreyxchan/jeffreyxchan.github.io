@@ -39,11 +39,17 @@ p, h1 {
     padding: 40px 0
 }
 
-.billboard-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 10px;
+.social-media {
     background-color: white;
+    opacity: 0.8;
+    width: 480px;
+    padding: 15px 0;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.fa {
+    margin: 0px 20px;
 }
 
 /* ANNOUNCEMENTS */
