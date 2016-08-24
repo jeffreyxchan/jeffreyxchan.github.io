@@ -61,7 +61,7 @@ p, h1 {
 }
 
 .billboard-text {
-    padding: 150px 0px;
+    padding: 150px 0px 0px 0px;
 }
 
 .billboard-text h1 {
@@ -70,6 +70,17 @@ p, h1 {
     margin: 0px auto;
     padding: 20px 0px;
     border-bottom: solid 4px;
+}
+
+.billboard-description h1 {
+    padding: 40px 0
+}
+
+.billboard-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: white;
 }
 
 /* ANNOUNCEMENTS */
