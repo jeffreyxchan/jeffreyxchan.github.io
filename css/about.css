@@ -46,3 +46,31 @@ body, p {
     
     font-weight: bold;
 }
+
+/* ABOUT ME */
+.about-me p {
+    font-size: 20px;
+}
+
+.bruin-blue {
+    font-weight: bold;
+    color: #0066ff;
+}
+
+.bruin-gold {
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+/* EXPERIENCE */
+
+.experience h2 {
+    font-weight: bold;
+}
+
+.experience p {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+/* SKILLS AND ABILITIES */
