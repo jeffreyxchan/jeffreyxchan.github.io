@@ -30,3 +30,19 @@ body, p {
     border: solid white 4px;
     border-radius: 300px;
 }
+
+/* DESCRIPTION */
+
+.ribbon {
+    text-align: center;
+}
+
+.ribbon h2 {
+    width: 500px;
+    margin: 30px auto;
+    padding: 15px 0;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    
+    font-weight: bold;
+}
