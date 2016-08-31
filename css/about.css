@@ -31,7 +31,7 @@ body, p {
     border-radius: 300px;
 }
 
-/* DESCRIPTION */
+/* SOME GENERAL STUFF */
 
 .ribbon {
     text-align: center;
@@ -45,6 +45,13 @@ body, p {
     border-bottom: solid black 1px;
     
     font-weight: bold;
+}
+
+.about-container,
+.experience-container,
+.skills-container {
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 /* ABOUT ME */
@@ -62,6 +69,16 @@ body, p {
     color: #ffcc00;
 }
 
+.about-me-picture {
+    margin-top: 5px;
+}
+
+.about-me-picture #caption {
+    padding: 10px 0 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 /* EXPERIENCE */
 
 .experience h2 {
@@ -74,3 +91,17 @@ body, p {
 }
 
 /* SKILLS AND ABILITIES */
+
+.skills-container h3 {
+    font-weight: bold;
+}
+
+.skills-container ul {
+    list-style: none;
+    padding: 0;
+    font-size: 20px;
+}
+
+.skills-container li {
+    padding: 5px 0;
+}
