@@ -79,6 +79,12 @@ body, p {
     font-weight: bold;
 }
 
+@media (max-width: 992px) {
+    .about-me-picture {
+        display: none;
+    }
+}
+
 /* EXPERIENCE */
 
 .experience h2 {
@@ -91,6 +97,10 @@ body, p {
 }
 
 /* SKILLS AND ABILITIES */
+
+.skills-container {
+    margin-bottom: 40px;
+}
 
 .skills-container h3 {
     font-weight: bold;
