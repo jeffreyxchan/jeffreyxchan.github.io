@@ -11,11 +11,16 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+    
     <!-- External Stylesheets -->
     <link rel="stylesheet" type="text/css" href="../css/projects.css" />
     <link rel='stylesheet' type='text/css' href='../css/navbar.css' />
     <link rel='stylesheet' type='text/css' href='../css/footer.css' />
     
+    <!-- Personal JavaScript -->
+    <script src='../js/projects.js'></script>
 </head>
 <body>
     <!-- NAVBAR -->
@@ -33,27 +38,128 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="../index.html"><b>Home</b></a></li>
                     <li><a href="../html/about.html"><b>About</b></a></li>
-                    <li class='active'><a href='../html/projects.html'><b>Projects</b></a></li>
+                    <li class="active"><a href='../html/projects.html'><b>Projects</b></a></li>
+                    <li><a href='../files/resume-jeffrey-chan.pdf' target="_blank"><b>Resume</b></a></li>
                     <li><a href='../html/faq.html'><b>FAQ</b></a></li>
-                    <li><a href='#'><b>Extra</b></a></li>
                 </ul>
             </div>
         </div>
     </nav>
     
-    <nav class='project-navbar'>
-        <div class='container-fluid'>
-            <div class='col-sm-4 nav-item text-center'>
-                <h1>Hardware</h1>
+    <!-- PROJECT NAVBAR -->
+    <div class='container project-navbar'>
+        <div class='col-sm-4 nav-item text-center hardware active'>
+            <h1>Hardware</h1>
+        </div>
+        <div class='col-sm-4 nav-item text-center code'>
+            <h1>Code</h1>
+        </div>
+        <div class='col-sm-4 nav-item text-center webdev'>
+            <h1>Web Development</h1>
+        </div>
+    </div>
+    
+    <!-- HARDWARE PROJECTS -->
+    <div class='hardware-projects'>
+        <div class='container project-container'>
+            <h1>Natbus</h1>
+            <div class='col-md-8'>
+                <h3>Completed May 2016 | IEEE at UCLA Open Project Space</h3>
+                <h4>Description:</h4>
+                <div class='description'>
+                    <p>A small, self-driving vehicle that utilizes infrared light to navigate itself.</p>
+                </div>
+                <div class='container-fluid skill-tags text-center'>
+                    <div class='skill'>Microchips</div>
+                    <div class='skill'>Microcontrollers</div>
+                    <div class='skill'>PID Control</div>
+                </div>
+                <div class='links text-center'>
+                    <a href='#' target='_blank'><i class='fa fa-youtube-play fa-4x'></i></a>
+                </div>
             </div>
-            <div class='col-sm-4 nav-item text-center'>
-                <h1>Coding</h1>
-            </div>
-            <div class='col-sm-4 nav-item text-center'>
-                <h1>Web Dev</h1>
+            <div class='col-md-4'>
+                <img src='../images/headshot.jpg' style="width: 100%;" />
             </div>
         </div>
-    </nav>
+        <hr />
+        <div class='container project-container'>
+            <h1>Proximity Sensor</h1>
+            <div class='col-md-8'>
+                <h3>Completed Mar 2016 | IEEE at UCLA Open Project Space</h3>
+                <h4>Description:</h4>
+                <div class='description'>
+                    <p>A small, self-driving vehicle that utilizes infrared light to navigate itself.</p>
+                </div>
+                <div class='links text-center'>
+                </div>
+            </div>
+            <div class='col-md-4'>
+                <img src='../images/headshot.jpg' style="width: 100%;" />
+            </div>
+        </div>
+    </div>
+    
+    <!-- SOFTWARE PROJECTS -->
+    <div class='container-fluid code-projects'>
+        <div class='container project-container'>
+            <h1>Cyber Spider</h1>
+            <div class='col-md-8'>
+                <h3>Completed Mar 2016 | UCLA CS 32 Project 4</h3>
+                <h4>Description:</h4>
+                <div class='description'>
+                    <p>This project revolved around creating an attack detection program that could crawl through a large number of computer log data and detect malicious entities. The program also has the ability to discover new malicious entities that are associated with an already known set of malicious entities. The user then has the option to purge all associations within the log data that contain known malicious entities, emulating a sort of virus or attack defense program.</p>
+                </div>
+                <div class='skill-tags text-center'>
+                
+                </div>
+                <div class='links text-center'>
+                    <a href='https://github.com/jeffreyxchan/Cyber-Spider' target='_blank'><i class='fa fa-github fa-4x'></i></a>
+                </div>
+            </div>
+            <div class='col-md-4'>
+                <img src='../images/headshot.jpg' style="width: 100%;" />
+            </div>
+        </div>
+    </div>
+    
+    <!-- WEBDEV PROJECTS -->
+    <div class='container-fluid webdev-projects'>
+        <div class='container project-container'>
+            <h1>IDEA Hacks Website</h1>
+            <div class='col-md-8'>
+                <h3>In Progress | IEEE at UCLA</h3>
+                <h4>Description:</h4>
+                <div class='description'>
+                    <p>Website for IEEE at UCLA's annual hardware hackathon, IDEA Hacks.</p>
+                </div>
+                <div class='links text-center'>
+                    <a href='http://ideahacks2016.herokuapp.com' target='_blank'><i class='fa fa-link fa-4x'></i></a>
+                </div>
+            </div>
+            <div class='col-md-4'>
+                <img src='../images/headshot.jpg' style="width: 100%;" />
+            </div>
+        </div>
+        <hr />
+        <div class='container project-container'>
+            <h1>Sora</h1>
+            <div class='col-md-8'>
+                <h3>Completed July 2016 | <a href='http://www.reactjsprogram.com/' target='_blank'>React.js Program</a></h3>
+                <h4>Description:</h4>
+                <div class='description'>
+                    <p>Weather app built with React.js and Webpack.</p>
+                </div>
+                <div class='links text-center'>
+                    <a href='http://ultimatebj69.bol.ucla.edu/' target='_blank'><i class='fa fa-link fa-4x'></i></a>
+                    <a href='https://github.com/jeffreyxchan/Sora' target='_blank'><i class='fa fa-github fa-4x'></i></a>
+                </div>
+            </div>
+            <div class='col-md-4'>
+                <img src='../images/headshot.jpg' style="width: 100%;" />
+            </div>
+        </div>
+    </div>
     
     <!-- FOOTER -->
     <div class='footer'>
