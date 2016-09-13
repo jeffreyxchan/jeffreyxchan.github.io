@@ -48,19 +48,25 @@
     
     <!-- PROJECT NAVBAR -->
     <div class='container project-navbar'>
-        <div class='col-sm-4 nav-item text-center hardware active'>
-            <h1>Hardware</h1>
-        </div>
-        <div class='col-sm-4 nav-item text-center code'>
-            <h1>Code</h1>
-        </div>
-        <div class='col-sm-4 nav-item text-center webdev'>
-            <h1>Web Development</h1>
-        </div>
+        <a href='#hardware'>
+            <div class='col-sm-4 nav-item text-center hardware active'>
+                <h1>Hardware</h1>
+            </div>
+        </a>
+        <a href='#code'>
+            <div class='col-sm-4 nav-item text-center code'>
+                <h1>Code</h1>
+            </div>
+        </a>
+        <a href='#webdev'>
+            <div class='col-sm-4 nav-item text-center webdev'>
+                <h1>Web Development</h1>
+            </div>
+        </a>
     </div>
     
     <!-- HARDWARE PROJECTS -->
-    <div class='hardware-projects'>
+    <div class='project-group container-fluid hardware-projects'>
         <div class='container project-container'>
             <h1>Natbus</h1>
             <div class='col-md-8'>
@@ -101,30 +107,103 @@
     </div>
     
     <!-- SOFTWARE PROJECTS -->
-    <div class='container-fluid code-projects'>
+    <div class='project-group container-fluid code-projects'>
         <div class='container project-container'>
             <h1>Cyber Spider</h1>
             <div class='col-md-8'>
                 <h3>Completed Mar 2016 | UCLA CS 32 Project 4</h3>
                 <h4>Description:</h4>
                 <div class='description'>
-                    <p>This project revolved around creating an attack detection program that could crawl through a large number of computer log data and detect malicious entities. The program also has the ability to discover new malicious entities that are associated with an already known set of malicious entities. The user then has the option to purge all associations within the log data that contain known malicious entities, emulating a sort of virus or attack defense program.</p>
+                    <p>This project revolved around creating an effective and efficient program that could crawl through a large number of computer log data and detect known malicious entities. The program also has the ability to discover new malicious entities associated with the already known malicious entities. The user then has the option to purge all associations within the log data that contain known malicious entities, emulating a sort of virus or attack defense program.</p>
                 </div>
-                <div class='skill-tags text-center'>
-                
+                <div class='container-fluid skill-tags text-center'>
+                    <div class='skill'>C++</div>
+                    <div class='skill'>C++ STL</div>
+                    <div class='skill'>Binary Search Trees</div>
+                    <div class='skill'>Hash Tables</div>
                 </div>
                 <div class='links text-center'>
                     <a href='https://github.com/jeffreyxchan/Cyber-Spider' target='_blank'><i class='fa fa-github fa-4x'></i></a>
                 </div>
             </div>
             <div class='col-md-4'>
-                <img src='../images/headshot.jpg' style="width: 100%;" />
+                <h1 id='no-image'>No image available</h1>
+            </div>
+        </div>
+        <hr />
+        <div class='container project-container'>
+            <h1>Frackman</h1>
+            <div class='col-md-8'>
+                <h3>Completed Feb 2016 | UCLA CS 32 Project 3</h3>
+                <h4>Description:</h4>
+                <div class='description'>
+                    <p>This project required us to program a small game. In this game, the player has to navigate the Frackman around an oil field until he finds all the barrels of oil, while also avoiding Protestors who want to stop the Frackman. We were provided with a code skeleton containing all the necessary assets to display and run the game and were tasked with programming all the superclasses and subclasses of the characters and objects within the game. Completing this project gave me a deeper understanding of proper object-oriented programming and how a game is constructed.</p>
+                </div>
+                <div class='container-fluid skill-tags text-center'>
+                    <div class='skill'>C++</div>
+                    <div class='skill'>C++ STL</div>
+                    <div class='skill'>Inheritance</div>
+                    <div class='skill'>Polymorphism</div>
+                    <div class='skill'>Recursion</div>
+                </div>
+                <div class='links text-center'>
+                    <a href='https://github.com/jeffreyxchan/Frackman' target='_blank'><i class='fa fa-github fa-4x'></i></a>
+                </div>
+            </div>
+            <div class='col-md-4 text-center'>
+                <a href='../images/projects/frackman.png'>
+                    <img src='../images/projects/frackman.png' style="width: 100%;" />
+                </a>
+                <p>*Click for enlarged view*</p>
+            </div>
+        </div>
+        <hr />
+        <div class='container project-container'>
+            <h1>Rage Against the Robots</h1>
+            <div class='col-md-8'>
+                <h3>Completed Jan 2016 | UCLA CS 32 Project 1</h3>
+                <h4>Description:</h4>
+                <div class='description'>
+                    <p>This project required us to program a small console game. In this game, a character (indicated by the '@') is placed on a square grid among a swarm of robots (indicated by an 'R' or a number corresponding to the number of robots on that space) and has to defeat all the robots in order to win. If a robot happens to land on the same space as the character, then the player loses.</p>
+                </div>
+                <div class='container-fluid skill-tags text-center'>
+                    <div class='skill'>C++</div>
+                    <div class='skill'>Classes</div>
+                    <div class='skill'>Dynamic Allocation</div>
+                </div>
+                <div class='links text-center'>
+                    <a href='https://github.com/jeffreyxchan/Rage-Against-the-Robots' target='_blank'><i class='fa fa-github fa-4x'></i></a>
+                </div>
+            </div>
+            <div class='col-md-4'>
+                <img src='../images/projects/machines.png' style="width: 100%;" />
+            </div>
+        </div>
+        <hr />
+        <div class='container project-container'>
+            <h1>Rocks and Pebbles</h1>
+            <div class='col-md-8'>
+                <h3>Completed Nov 2015 | UCLA CS 31 Project 5</h3>
+                <h4>Description:</h4>
+                <div class='description'>
+                    <p>This project is small console game coded in C++. It's a word guessing game in which the program chooses a secret word 4-6 letters long (from a pre-selected list of words) and the player has to guess the word correctly in order to win. With each incorrect guess, the game informs the player of the number of correctly placed letters (rocks) and number of misplaced letters (pebbles) within their guess, and asks them to try again.</p>
+                </div>
+                <div class='container-fluid skill-tags text-center'>
+                    <div class='skill'>C++</div>
+                    <div class='skill'>C Strings</div>
+                </div>
+                <div class='links text-center'>
+                    <a href='https://github.com/jeffreyxchan/Rocks-and-Pebbles' target='_blank'><i class='fa fa-github fa-4x'></i></a>
+                </div>
+            </div>
+            <div class='col-md-4'>
+                <img src='../images/projects/rocks.png' style="width: 100%;" />
             </div>
         </div>
     </div>
     
     <!-- WEBDEV PROJECTS -->
-    <div class='container-fluid webdev-projects'>
+    <div class='project-group container-fluid webdev-projects'>
         <div class='container project-container'>
             <h1>IDEA Hacks Website</h1>
             <div class='col-md-8'>
@@ -132,6 +211,13 @@
                 <h4>Description:</h4>
                 <div class='description'>
                     <p>Website for IEEE at UCLA's annual hardware hackathon, IDEA Hacks.</p>
+                </div>
+                <div class='container-fluid skill-tags text-center'>
+                    <div class='skill'>HTML</div>
+                    <div class='skill'>CSS</div>
+                    <div class='skill'>Bootstrap</div>
+                    <div class='skill'>Node.js</div>
+                    <div class='skill'>MongoDB</div>
                 </div>
                 <div class='links text-center'>
                     <a href='http://ideahacks2016.herokuapp.com' target='_blank'><i class='fa fa-link fa-4x'></i></a>

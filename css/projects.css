@@ -47,11 +47,11 @@ hr {
 }
 
 .nav-item:hover {
-    background-color: black;
+    background-color: #004d00;
 }
 
 .nav-item.active {
-    background-color: black;
+    background-color: #004d00;
 }
 
 .nav-item h1 {
@@ -61,12 +61,16 @@ hr {
 
 /* PROJECTS */
 
+.project-group {
+    padding: 20px 0;
+}
+
 .project-container {
     padding: 20px 5%;
 }
 
 @media (max-width: 992px) {
-    img {
+    img, #no-image {
         display: none;
     }
 }
@@ -83,7 +87,7 @@ hr {
 }
 
 h3 {
-    color: skyblue;
+    color: #0e87c4;
 }
 
 h3, h4 {
@@ -99,15 +103,14 @@ h3, h4 {
 }
 
 .skill {
-    width: 160px;
     float: left;
     margin: 5px 10px;
-    padding: 5px 10px;
-    background-color: deepskyblue;
+    padding: 5px 15px;
+    background-color: #0e87c4;
     
     border-radius: 15px;
     
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     color: white;
 }
