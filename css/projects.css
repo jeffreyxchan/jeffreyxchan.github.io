@@ -5,7 +5,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-p {
+p, h1 {
     margin: 0px;
 }
 
@@ -24,4 +24,24 @@ p {
 .banner #sub-header {
     font-size: 25px;
     margin-top: 60px;
+}
+
+/* PROJECT NAVBAR */
+
+.project-navbar {
+    background-color: green;
+}
+
+.nav-item {
+    padding: 15px;
+    color: white;
+}
+
+.nav-item:hover {
+    background-color: black;
+}
+
+.nav-item h1 {
+    font-weight: bold;
+    font-size: 30px;
 }
