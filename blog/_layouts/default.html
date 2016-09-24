@@ -1,44 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>{{ page.title }}</title>
-    
-    <!-- Personal Stylesheets -->
-    <link rel="stylesheet" type="text/css" href="../css/index.css" />
-    <link rel='stylesheet' type='text/css' href='../css/navbar.css' />
-    <link rel='stylesheet' type='text/css' href='../css/footer.css' />
-</head>
-<body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span> 
-                </button>
-                <a class="navbar-brand" href="../index.html"><b>Jeffrey Chan</b></a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class='active'><a href="../index.html"><b>Home</b></a></li>
-                    <li><a href="../html/about.html"><b>About</b></a></li>
-                    <li><a href='../html/projects.html'><b>Projects</b></a></li>
-                    <li><a href='../files/resume-jeffrey-chan.pdf' target="_blank"><b>Resume</b></a></li>
-                    <li><a href='../html/faq.html'><b>FAQ</b></a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <div class="container">
 
-    {{ content }}
+  {% include head.html %}
 
-    </div><!-- /.container -->
-    <!-- FOOTER -->
-    <div class='footer'>
-        <p>&copy; Jeffrey Chan</p>
+  <body>
+
+    {% include header.html %}
+
+    <div class="page-content">
+      <div class="wrapper">
+        {{ content }}
+      </div>
     </div>
-</body>
+
+    {% include footer.html %}
+
+  </body>
+
 </html>
