@@ -1,0 +1,125 @@
+/* GENERAL ELEMENTS */
+
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p, h1, h2, h3 {
+    margin: 0px;
+}
+
+hr {
+    width: 70%;
+    background-color: black;
+    height: 1px;
+}
+
+/* BANNERS */
+
+.banner {
+    width: 100%;
+    background-color: black;
+    padding: 120px 0px;
+    
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+}
+
+.banner #sub-header {
+    font-size: 25px;
+    margin-top: 60px;
+}
+
+/* PROJECT NAVBAR */
+
+.project-navbar {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.nav-item {
+    padding: 15px;
+    color: white;
+    background-color: green;
+}
+
+.nav-item:hover {
+    background-color: #004d00;
+}
+
+.nav-item.active {
+    background-color: #004d00;
+}
+
+.nav-item h1 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+/* PROJECTS */
+
+.project-group {
+    padding: 20px 0;
+}
+
+.project-container {
+    padding: 20px 5%;
+}
+
+@media (max-width: 992px) {
+    img, #no-image, video {
+        display: none;
+        border-color: none;
+    }
+}
+
+
+.project-container h1 {
+    text-align: center;
+    margin: 0 0 20px;
+    font-weight: bold;
+}
+
+.project-container h3 {
+    text-align: center;
+}
+
+h3 {
+    color: #0e87c4;
+}
+
+h3, h4 {
+    font-weight: bold;
+}
+
+.project-container p {
+    font-size: 18px;
+}
+
+.description {
+    padding: 5px 0 10px;
+}
+
+.skill {
+    float: left;
+    margin: 5px 10px;
+    padding: 5px 15px;
+    background-color: #0e87c4;
+    
+    border-radius: 15px;
+    
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.links {
+    margin: 15px 0;
+}
+
+i {
+    margin: 0 5%;
+}
