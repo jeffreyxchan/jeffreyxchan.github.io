@@ -15,3 +15,7 @@
 .nav li {
     padding: 0px 10px;
 }
+
+.site-header {
+    border: none;
+}

@@ -15,3 +15,7 @@
     text-decoration: underline;
     color: #fff;
 }
+
+.footer p {
+    margin: 0;
+}
