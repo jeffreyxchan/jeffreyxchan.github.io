@@ -4,18 +4,25 @@ title: Blog - Jeffrey Chan
 ---
 
 <div class="home">
+    
+    <div class='home-banner'>
+        <h1>A Developer and his Text Editor</h1>
+    </div>
 
-    <h1 class="page-heading">Posts</h1>
-
-    <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-    </ul>
+    <div class='container-fluid post-container'>
+        {% for post in site.posts %}
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+            <div class='col-md-6 post'>
+                <div class='col-md-6 post-image'>
+                    <img style='width: 100%' src='{{post.picture}}' />
+                </div>
+                <div class='col-md-6 post-stats'>
+                    <h2>{{ post.title }}</h2>
+                    <h3>{{ post.subtitle }}</h3>
+                    <h3 class="post-date">{{ post.date | date: "%b %-d, %Y" }}</h3>
+                </div>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
 </div>

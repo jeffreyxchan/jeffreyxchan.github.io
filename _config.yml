@@ -2,9 +2,10 @@
 title: Jeffrey Chan
 email: jeffschan97@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  I have a lot of crazy ideas and stuffing them in a blog is one way
+  of dealing with them. I try my best to publish my thoughts and
+  daily activities, and hope that my stories are able to reach
+  others.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jeffreyxchan.github.io" # the base hostname & protocol for your site
 

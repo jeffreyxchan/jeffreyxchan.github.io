@@ -1,0 +1,50 @@
+/* DEFAULT STUFF */
+
+.page-content {
+    padding: 0;
+}
+
+/* HOME BANNER */
+
+.home-banner {
+    padding: 20px 0 5px;
+    background-color: grey;
+    
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* POST CONTAINER */
+
+.post-container {
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.post {
+    padding: 0;
+}
+
+.post-image {
+    padding: 0;
+}
+
+.post-stats {
+    height: 100%;
+    padding: 15px;
+    text-align: center;
+    color: #1756a9;
+}
+
+.post-date {
+    font-size: 30px;
+}
+
+.post-stats h2 {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.post-stats h3 {
+    margin: 20px 0;
+}

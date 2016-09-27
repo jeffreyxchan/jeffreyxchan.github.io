@@ -18,4 +18,5 @@
 
 .site-header {
     border: none;
+    min-height: 51px;
 }
