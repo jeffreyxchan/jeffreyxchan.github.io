@@ -7,11 +7,17 @@
 /* HOME BANNER */
 
 .home-banner {
-    padding: 20px 0 5px;
-    background-color: grey;
+    padding: 20px 0;
+    background-color: #F2F2F2;
     
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Arial, sans-serif;
+}
+
+.home-banner h1,
+.home-banner h4 {
+    margin: 0;
+    line-height: 1;
 }
 
 /* POST CONTAINER */

@@ -6,7 +6,8 @@ title: Blog - Jeffrey Chan
 <div class="home">
     
     <div class='home-banner'>
-        <h1>A Developer and his Text Editor</h1>
+        <h1 style='color: #0066FF;'><b>BLOGJEFFREY</b></h1>
+        <h4 style='color: #FFC301;'>A DEVELOPER AND HIS TEXT EDITOR</h4>
     </div>
 
     <div class='container-fluid post-container'>
@@ -14,7 +15,7 @@ title: Blog - Jeffrey Chan
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             <div class='col-md-6 post'>
                 <div class='col-md-6 post-image'>
-                    <img style='width: 100%' src='{{post.picture}}' />
+                    <img style='width: 100%' src='{{post.picture | prepend: site.baseurl }}' />
                 </div>
                 <div class='col-md-6 post-stats'>
                     <h2>{{ post.title }}</h2>
