@@ -4,11 +4,16 @@
     padding: 0;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 /* HOME BANNER */
 
 .home-banner {
-    padding: 20px 0;
-    background-color: #F2F2F2;
+    padding: 25px 0;
+    width: 350px;
+    margin: 0 auto;
     
     text-align: center;
     font-family: Arial, sans-serif;
@@ -17,14 +22,17 @@
 .home-banner h1,
 .home-banner h4 {
     margin: 0;
-    line-height: 1;
+    line-height: 1.1;
+}
+
+.home-banner h1 {
+    letter-spacing: 5px;
 }
 
 /* POST CONTAINER */
 
 .post-container {
-    margin-bottom: 10px;
-    padding: 0;
+    padding: 0 0 10px 0;
 }
 
 .post {

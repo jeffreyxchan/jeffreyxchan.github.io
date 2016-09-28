@@ -4,13 +4,7 @@ title: Blog - Jeffrey Chan
 ---
 
 <div class="home">
-    
-    <div class='home-banner'>
-        <h1 style='color: #0066FF;'><b>BLOGJEFFREY</b></h1>
-        <h4 style='color: #FFC301;'>A DEVELOPER AND HIS TEXT EDITOR</h4>
-    </div>
-
-    <div class='container-fluid post-container'>
+    <div class='container'>
         {% for post in site.posts %}
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
             <div class='col-md-6 post'>
