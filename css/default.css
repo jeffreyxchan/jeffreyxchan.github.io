@@ -50,6 +50,12 @@ a:hover {
     height: 100%;
 }
 
+@media (max-width: 768px) {
+    .post-image {
+        display: none;
+    }
+}
+
 .post-stats {
     height: 100%;
     padding: 15px;
