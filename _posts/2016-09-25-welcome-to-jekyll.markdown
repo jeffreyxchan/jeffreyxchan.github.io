@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Welcome to Jekyll!"
-subtitle: "My first blog post"
-date:   2016-09-25 15:26:50 -0700
-categories: jekyll update
+subtitle: "The sample post that comes with using Jekyll"
+date:   2016-09-25
 picture: /images/ieee-headshot.jpg
+author: Jeffrey Chan
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 

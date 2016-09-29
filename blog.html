@@ -10,7 +10,7 @@ title: Blog - Jeffrey Chan
             {% if mod < 2 %}
                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                     <div class='col-md-6 col-xs-12 post-component'>
-                        <div class='col-sm-6 post-image' style='background: url(..{{post.picture}}); background-size: cover;'></div>
+                        <div class='col-sm-6 post-image' style='background: url({{post.picture | prepend: site.baseurl}}); background-size: cover;'></div>
                         <div class='col-sm-6 post-stats'>
                             <h2>{{ post.title }}</h2>
                             <h3>{{ post.subtitle }}</h3>
@@ -28,7 +28,7 @@ title: Blog - Jeffrey Chan
                             <h3 class="post-date">{{ post.date | date: "%b %-d, %Y" }}</h3>
                             <button class='read-more' href="{{ post.url | prepend: site.baseurl }}">READ MORE</button>
                         </div>
-                        <div class='col-sm-6 post-image' style='background: url(..{{post.picture}}); background-size: cover;'></div>
+                        <div class='col-sm-6 post-image' style='background: url({{post.picture | prepend: site.baseurl}}); background-size: cover;'></div>
                     </div>
                 </a>
             {% endif %}
