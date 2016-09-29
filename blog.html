@@ -9,9 +9,9 @@ title: Blog - Jeffrey Chan
             {% assign mod = forloop.index0 | modulo:4 %}
             {% if mod < 2 %}
                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                    <div class='col-md-6 post-component'>
-                        <div class='col-md-6 post-image' style='background: url(..{{post.picture}}); background-size: cover;'></div>
-                        <div class='col-md-6 post-stats'>
+                    <div class='col-md-6 col-xs-12 post-component'>
+                        <div class='col-sm-6 post-image' style='background: url(..{{post.picture}}); background-size: cover;'></div>
+                        <div class='col-sm-6 post-stats'>
                             <h2>{{ post.title }}</h2>
                             <h3>{{ post.subtitle }}</h3>
                             <h3 class="post-date">{{ post.date | date: "%b %-d, %Y" }}</h3>
@@ -21,14 +21,14 @@ title: Blog - Jeffrey Chan
                 </a>
             {% else %}
                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-                    <div class='col-md-6 post-component'>
-                        <div class='col-md-6 post-stats'>
+                    <div class='col-md-6 col-xs-12 post-component'>
+                        <div class='col-sm-6 post-stats'>
                             <h2>{{ post.title }}</h2>
                             <h3>{{ post.subtitle }}</h3>
                             <h3 class="post-date">{{ post.date | date: "%b %-d, %Y" }}</h3>
                             <button class='read-more' href="{{ post.url | prepend: site.baseurl }}">READ MORE</button>
                         </div>
-                        <div class='col-md-6 post-image' style='background: url(..{{post.picture}}); background-size: cover;'></div>
+                        <div class='col-sm-6 post-image' style='background: url(..{{post.picture}}); background-size: cover;'></div>
                     </div>
                 </a>
             {% endif %}
