@@ -10,7 +10,7 @@ title: Blog - Jeffrey Chan
             {% if mod < 2 %}
                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                     <div class='col-md-6 col-xs-12 post-component container-fluid post-container'>
-                        <div class='col-sm-6 post-image' style='background: url({{post.picture | prepend: site.baseurl}}); background-size: cover;'></div>
+                        <div class='col-sm-6 post-image' style='background: url({{post.picture | prepend: site.baseurl}}) center; background-size: cover;'></div>
                         <div class='col-sm-6 post-stats'>
                             <h2>{{ post.title }}</h2>
                             <h3>{{ post.subtitle }}</h3>
