@@ -1,6 +1,17 @@
-# My Personal Webiste
+# Personal Webiste
 
 Check out my personal website at [jeffreyxchan.github.io](https://jeffreyxchan.github.io)
 
-Cheers!  
-Jeffrey Chan
+Includes:
+- Contact information
+- Skills and experiences
+- Project portfolio
+- Resume
+
+Developed with:
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- jQuery
+- Jekyll
