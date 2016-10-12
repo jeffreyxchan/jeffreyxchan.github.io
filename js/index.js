@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    var descriptions  = ['Web Developer', 'Coder', "Electrical Engineer"];
+    var descriptions  = ['Web Developer', 'Coder', 'Electrical Engineer', 'Dancer'];
     var descriptionIndex = 2;
     document.getElementById('fillMe').innerHTML = descriptions[2];
     
@@ -9,7 +9,7 @@ $(document).ready(function () {
             descriptionIndex = 0;
         }
         document.getElementById('fillMe').innerHTML = descriptions[descriptionIndex];
-        setTimeout(changeDescription, 3000);
+        setTimeout(changeDescription, 2000);
     }
     
     changeDescription();
