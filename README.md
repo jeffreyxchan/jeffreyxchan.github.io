@@ -1,4 +1,4 @@
-# Personal Webiste
+# Personal Website
 
 Check out my personal website at [jeffreyxchan.github.io](https://jeffreyxchan.github.io)
 
