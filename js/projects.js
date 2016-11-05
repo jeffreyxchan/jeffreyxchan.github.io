@@ -1,7 +1,7 @@
 $(document).ready(function () {
     // initial setting
     if (window.location.hash == '') {
-        window.location.hash = '#hardware'; // default setting
+        window.location.hash = '#webdev'; // default setting
     }
     $('.nav-item').removeClass('active'); // remove active class from all of them
     $('.project-group').hide(); // hide all of them
