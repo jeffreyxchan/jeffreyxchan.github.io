@@ -38,6 +38,11 @@
     margin: 20px 0;
 }
 
+.post-content li {
+    font-size: 22px;
+    padding: 10px 0;
+}
+
 /* BLOG BUTTONS */
 
 .footer-button {
