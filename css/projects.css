@@ -66,7 +66,7 @@ hr {
 }
 
 .project-container {
-    padding: 20px 5%;
+    padding: 30px 5%;
 }
 
 @media (max-width: 992px) {
@@ -116,10 +116,35 @@ h3, h4 {
     color: white;
 }
 
+/* MEDIA LINKS */
+
 .links {
-    margin: 15px 0;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
-i {
-    margin: 0 5%;
+.links i {
+    margin: 0 8%;
+    opacity: 1;
+    color: white;
+    font-size: 6em;
+}
+
+.links i:hover {
+    cursor: pointer;
+}
+
+.media-links {
+    width: calc(100% - 30px);
+    height: 100%;
+    position: absolute;
+    background-color: #333333;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s;  /* Safari */
+    transition: opacity 0.5s;
+}
+
+.media-links:hover {
+    opacity: 0.4;
 }
