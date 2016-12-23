@@ -76,9 +76,6 @@ hr {
         max-width: 450px;
         margin-top: 25px;
     }
-    .media-links {
-        display: none;
-    }
 }
 
 
@@ -153,7 +150,7 @@ hr {
     transition: opacity 0.5s;
 }
 
-.media-links:hover,
-.media-links:active {
+/*
+.media-links:hover {
     opacity: 1;
-}
+}*/

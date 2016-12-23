@@ -47,4 +47,17 @@ $(document).ready(function () {
             $('.webdev-projects').show();
         }
     });
+    
+    // MEDIA LINKS FOR MOBILE
+    $('.media-links').click(function () {
+        if ($(this).css("opacity") === "1") {
+            $(this).css({
+                opacity: "0"
+            });
+        } else {
+            $(this).css({
+                opacity: "1"
+            });
+        }
+    });
 });
