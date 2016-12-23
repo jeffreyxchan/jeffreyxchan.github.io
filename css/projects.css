@@ -153,6 +153,7 @@ hr {
     transition: opacity 0.5s;
 }
 
-.media-links:hover {
+.media-links:hover,
+.media-links:active {
     opacity: 1;
 }
