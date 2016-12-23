@@ -38,7 +38,7 @@ body, p {
 }
 
 .ribbon h2 {
-    width: 500px;
+    max-width: 500px;
     margin: 30px auto;
     padding: 15px 0;
     border-top: solid black 1px;

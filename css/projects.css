@@ -67,12 +67,15 @@ hr {
 
 .project-container {
     padding: 30px 5%;
+    text-align: center;
 }
 
 @media (max-width: 992px) {
     img, #no-image, video {
-        display: none;
+/*        display: none;*/
         border-color: none;
+        max-width: 450px;
+        margin-top: 25px;
     }
 }
 
@@ -85,18 +88,15 @@ hr {
 
 .project-container h3 {
     text-align: center;
-}
-
-h3 {
     color: #0e87c4;
-}
-
-h3, h4 {
     font-weight: bold;
 }
 
 .project-container p {
-    font-size: 18px;
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.4;
+    padding: 10px 0;
 }
 
 .description {
@@ -114,6 +114,12 @@ h3, h4 {
     font-size: 15px;
     font-weight: bold;
     color: white;
+}
+
+.skill-tags {
+    display: inline-block;
+    margin: 0 auto;
+    position: inherit;
 }
 
 /* MEDIA LINKS */

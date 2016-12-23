@@ -24,14 +24,14 @@ p, h1 {
 }
 
 .billboard-text {
-    padding: 150px 0px 0px 0px;
+    padding: 150px 0 0 0;
 }
 
 .billboard-text h1 {
     font-size: 60px;
-    width: 430px;
+    max-width: 430px;
     margin: 0px auto;
-    padding: 20px 0px;
+    padding: 20px 0;
     border-bottom: solid 4px;
 }
 
@@ -40,16 +40,29 @@ p, h1 {
 }
 
 .social-media {
-    background-color: white;
-    opacity: 0.8;
-    width: 480px;
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 480px;
     padding: 15px 0;
     margin: 0 auto;
     border-radius: 20px;
 }
 
 .fa {
-    margin: 0px 15px;
+    margin: 0 15px;
+}
+
+@media (max-width: 425px) {
+    .billboard-text h1 {
+        font-size: 50px;
+        width: 90%;
+    }
+    .social-media {
+        width: 90%;
+    }
+    .fa {
+        font-size: 3em;
+        margin: 0 13px;
+    }
 }
 
 /* ANNOUNCEMENTS */
