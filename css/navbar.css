@@ -4,17 +4,28 @@
     margin: 0;
     border-radius: 0;
     padding: 0px 3%;
+    background-color: black;
+    color: white;
     
     font-size: 20px;
 }
 
-.navbar-brand {
+.navbar-inverse .navbar-brand,
+#myNavbar a {
     font-size: 20px;
+    color: white;
 }
 
 .nav li {
-    padding: 0px 10px;
+    padding: 0px 0px;
+    margin: 0px 10px;
+    color: white;
 }
+
+.nav li.active,
+.nav li:hover {
+    border-bottom: solid white 2px;
+}   
 
 .site-header {
     border: none;

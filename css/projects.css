@@ -127,7 +127,7 @@ h3, h4 {
 .links i {
     margin: 0 8%;
     opacity: 1;
-    color: white;
+    color: black;
     font-size: 6em;
 }
 
@@ -139,12 +139,12 @@ h3, h4 {
     width: calc(100% - 30px);
     height: 100%;
     position: absolute;
-    background-color: #333333;
+    background: rgba(255, 255, 255, 0.65);
     opacity: 0;
     -webkit-transition: opacity 0.5s;  /* Safari */
     transition: opacity 0.5s;
 }
 
 .media-links:hover {
-    opacity: 0.4;
+    opacity: 1;
 }
