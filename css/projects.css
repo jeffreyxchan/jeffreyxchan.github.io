@@ -59,6 +59,53 @@ hr {
     font-size: 25px;
 }
 
+@media (max-width: 768px) {
+    .project-navbar {
+        display: none;
+    }
+}
+
+/* PROJECT DROPDOWN */
+
+.dropdown-section {
+    padding: 0;
+}
+
+.filter.icon {
+    font-size: 0.8em;
+}
+
+.ui.dropdown {
+    font-size: 28px;
+    font-weight: bold;
+    width: 100%;
+    padding: 20px 15px;
+    text-align: center;
+    background-color: green;
+    color: white;
+}
+
+.ui.dropdown .menu {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.ui.dropdown .menu > * {
+    padding: 20px 0;
+}
+
+.ui.dropdown .menu .item {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+@media (min-width: 768px) {
+    .ui.dropdown {
+        display: none;
+    }
+}
+
 /* PROJECTS */
 
 .project-group {
@@ -72,7 +119,6 @@ hr {
 
 @media (max-width: 992px) {
     img, #no-image, video {
-        border-color: none;
         max-width: 450px;
         margin-top: 25px;
     }
@@ -146,11 +192,6 @@ hr {
     position: absolute;
     background: rgba(255, 255, 255, 0.65);
     opacity: 0;
-    -webkit-transition: opacity 0.5s;  /* Safari */
-    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.3s;  /* Safari */
+    transition: opacity 0.3s;
 }
-
-/*
-.media-links:hover {
-    opacity: 1;
-}*/

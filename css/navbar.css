@@ -31,3 +31,9 @@
     border: none;
     min-height: 51px;
 }
+
+@media (max-width: 760px) {
+    .nav li.active {
+        border: none;
+    }
+}

@@ -14,6 +14,12 @@
     
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    
+    <!-- Semantic UI -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/semantic.js" type='text/javascript'></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/components/dropdown.css' />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.6/components/dropdown.js' type='text/javascript'></script>
           
     <!-- External Stylesheets -->
     <link rel="stylesheet" type="text/css" href="../css/projects.css" />
@@ -52,23 +58,28 @@
     
     <!-- PROJECT NAVBAR -->
     <div class='container project-navbar'>
-        <a href='#hardware'>
-            <div class='col-sm-4 nav-item text-center hardware active'>
-                <h1>Hardware</h1>
-            </div>
-        </a>
-        <a href='#code'>
-            <div class='col-sm-4 nav-item text-center code'>
-                <h1>Code</h1>
-            </div>
-        </a>
-        <a href='#webdev'>
-            <div class='col-sm-4 nav-item text-center webdev'>
-                <h1>Web Development</h1>
-            </div>
-        </a>
+        <div class='col-sm-4 nav-item text-center hardware'>
+            <h1>Hardware</h1>
+        </div>
+        <div class='col-sm-4 nav-item text-center code'>
+            <h1>Code</h1>
+        </div>
+        <div class='col-sm-4 nav-item text-center webdev'>
+            <h1>Web Development</h1>
+        </div>
     </div>
     
+    <!-- PROJECT DROPDOWN -->
+    <div class="ui dropdown">
+            <div class='text'>Web Development</div>
+            <i class='dropdown icon'></i>
+        <div class='menu'>
+            <div class='item'>Hardware</div>
+            <div class='item'>Code</div>
+            <div class='item'>Web Development</div>
+        </div>
+    </div>
+
     <!-- HARDWARE PROJECTS -->
     <div class='project-group container-fluid hardware-projects'>
         <div class='container project-container'>
