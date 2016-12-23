@@ -72,10 +72,12 @@ hr {
 
 @media (max-width: 992px) {
     img, #no-image, video {
-/*        display: none;*/
         border-color: none;
         max-width: 450px;
         margin-top: 25px;
+    }
+    .media-links {
+        display: none;
     }
 }
 
