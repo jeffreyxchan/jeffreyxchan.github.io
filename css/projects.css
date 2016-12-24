@@ -15,23 +15,6 @@ hr {
     height: 1px;
 }
 
-/* BANNERS */
-
-.banner {
-    width: 100%;
-    background-color: black;
-    padding: 120px 0px;
-    
-    color: #fff;
-    text-align: center;
-    font-size: 50px;
-}
-
-.banner #sub-header {
-    font-size: 25px;
-    margin-top: 60px;
-}
-
 /* PROJECT NAVBAR */
 
 .project-navbar {
@@ -135,6 +118,7 @@ hr {
     text-align: center;
     color: #0e87c4;
     font-weight: bold;
+    font-size: 22px;
 }
 
 .project-container p {

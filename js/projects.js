@@ -1,74 +1,43 @@
 $(document).ready(function () {
-    // initial setting
-//    if (window.location.hash == '') {
-//        window.location.hash = '#webdev'; // default setting
-//    }
-//    $('.nav-item').removeClass('active'); // remove active class from all of them
-//    $('.project-group').hide(); // hide all of them
-//    
-//    // make correct nav items active and show correct projects
-//    switch (window.location.hash) {
-//        case '#hardware':
-//            $('.project-navbar .hardware').addClass('active');
-//            $('.hardware-projects').show();
-//            break;
-//        case '#code':
-//            $('.project-navbar .code').addClass('active');
-//            $('.code-projects').show();
-//            break;
-//        case '#webdev':
-//            $('.project-navbar .webdev').addClass('active');
-//            $('.webdev-projects').show()
-//            break;
-//    }
     
-    $('.project-navbar .webdev').addClass('active');
+    // INITIAL DISPLAY SETTINGS
+    $('.nav-item.webdevelopment').addClass('active');
+    $('.item.webdevelopment').addClass('selected');
     $('.project-group').hide(); // hide all of them
     $('.webdev-projects').show()
 
-    // PROJECT NAVBAR
-    $('.nav-item').click(function () {
-        // injecting .active class in nav items with click
+    // PROJECT NAVIGATION
+    $('.nav-item, .item').click(function () {
+        var selection = $(this).children().html();
+        var selectedClass = selection.toLowerCase().replace(/ /g, "");
+        
+        // injecting classes
         $('.nav-item').removeClass('active');
-        $(this).addClass('active');
+        $('.item').removeClass('selected');
+        $('.nav-item').each(function () {
+            if ($(this).hasClass(selectedClass)) {
+                $(this).addClass('active');
+            }
+        });
+        $('.item').each(function () {
+            if ($(this).hasClass(selectedClass)) {
+                $(this).addClass('selected');
+            }
+        });
+        $('.text').html(selection);
         
         // displaying the correct set of projects
-        if ($('.hardware.active').length) {
+        if ($(this).children().html() == 'Hardware') {
             $('.hardware-projects').show();
             $('.code-projects').hide();
             $('.webdev-projects').hide();
         }
-        
-        if ($('.code.active').length) {
+        else if ($(this).children().html() == 'Code') {
             $('.hardware-projects').hide();
             $('.code-projects').show();
             $('.webdev-projects').hide();
         }
-        
-        if ($('.webdev.active').length) {
-            $('.hardware-projects').hide();
-            $('.code-projects').hide();
-            $('.webdev-projects').show();
-        }
-    });
-    
-    // PROJECT DROPDOWN CODE
-    $('.item').click(function () {
-        console.log($(this).html());
-        // displaying the correct set of projects
-        if ($(this).html() == 'Hardware') {
-            $('.hardware-projects').show();
-            $('.code-projects').hide();
-            $('.webdev-projects').hide();
-        }
-        
-        if ($(this).html() == 'Code') {
-            $('.hardware-projects').hide();
-            $('.code-projects').show();
-            $('.webdev-projects').hide();
-        }
-        
-        if ($(this).html() == 'Web Development') {
+        else if ($(this).children().html() == 'Web Development') {
             $('.hardware-projects').hide();
             $('.code-projects').hide();
             $('.webdev-projects').show();
