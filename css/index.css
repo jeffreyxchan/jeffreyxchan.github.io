@@ -1,8 +1,8 @@
 /* GENERAL HTML ELEMENTS */
-
-body {
+html, body {
+    height: 100%;
+    padding: 0;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 p, h1 {
@@ -13,7 +13,7 @@ p, h1 {
 
 .billboard {
     width: 100%;
-    height: 544px;
+    height: 100%; /* 544px*/
     background: linear-gradient(rgba(10,10,10,0.3), rgba(10,10,10,0.3)),
                 url(../images/ucla.jpg) 
                 no-repeat center;
@@ -51,6 +51,15 @@ p, h1 {
     margin: 0 15px;
 }
 
+@media (max-height: 480px) {
+    .billboard-text {
+        padding: 50px 0 0 0;
+    }
+    .billboard-description h1 {
+        padding: 20px 0;
+    }
+}
+
 @media (max-width: 425px) {
     .billboard-text h1 {
         font-size: 50px;
@@ -63,28 +72,4 @@ p, h1 {
         font-size: 3em;
         margin: 0 13px;
     }
-}
-
-/* ANNOUNCEMENTS */
-
-#announcements {
-    width: 85%;
-    max-width: 760px;
-    margin: 50px auto;
-}
-
-#announcements #banner {
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-#announcements #banner h1,
-.announcement h2 {
-    font-weight: bold;
-}
-
-.announcement p {
-    line-height: 1.5;
-    font-size: 20px;
-    padding: 20px 0px;
 }

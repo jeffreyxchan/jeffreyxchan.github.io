@@ -2,7 +2,6 @@
 
 body, p {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* PATTERNED BANNER */
@@ -43,8 +42,6 @@ body, p {
     padding: 15px 0;
     border-top: solid black 1px;
     border-bottom: solid black 1px;
-    
-    font-weight: bold;
 }
 
 .about-container,
@@ -87,10 +84,6 @@ body, p {
 
 /* EXPERIENCE */
 
-.experience h2 {
-    font-weight: bold;
-}
-
 .experience p {
     font-size: 20px;
     padding: 10px 0;
@@ -98,20 +91,21 @@ body, p {
 
 /* SKILLS AND ABILITIES */
 
-.skills-container {
-    margin-bottom: 40px;
+.section-label,
+.list-unstyled {
+    padding: 0 25px;
 }
 
-.skills-container h3 {
-    font-weight: bold;
+.list-unstyled li {
+    padding: 3px 0;
 }
 
-.skills-container ul {
-    list-style: none;
-    padding: 0;
-    font-size: 20px;
+.skill-label {
+    font-size: 1.5em;
 }
 
-.skills-container li {
-    padding: 5px 0;
+.skill-level {
+    float: right;
+    font-size: 1.5em;
+    color: #337AB7;
 }
