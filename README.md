@@ -14,4 +14,5 @@ Developed with:
 - JavaScript
 - Bootstrap
 - jQuery
+- Semenatic UI
 - Jekyll
