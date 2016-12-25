@@ -4,6 +4,15 @@ body, p {
     margin: 0;
 }
 
+p {
+    font-size: 20px;
+}
+
+.container {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 /* PATTERNED BANNER */
 
 .banner {
@@ -11,6 +20,20 @@ body, p {
     height: 200px;
     background: linear-gradient(rgba(10, 10, 10, 0.2), rgba(10, 10, 10, 0.2)),
               url(../images/polypattern.svg) no-repeat center center scroll;
+}
+
+/* RIBBON */
+
+.ribbon {
+    text-align: center;
+}
+
+.ribbon h2 {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 15px 0;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
 }
 
 /* PROFILE */
@@ -30,31 +53,7 @@ body, p {
     border-radius: 300px;
 }
 
-/* SOME GENERAL STUFF */
-
-.ribbon {
-    text-align: center;
-}
-
-.ribbon h2 {
-    max-width: 500px;
-    margin: 30px auto;
-    padding: 15px 0;
-    border-top: solid black 1px;
-    border-bottom: solid black 1px;
-}
-
-.about-container,
-.experience-container,
-.skills-container {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
 /* ABOUT ME */
-.about-me p {
-    font-size: 20px;
-}
 
 .bruin-blue {
     font-weight: bold;
@@ -66,35 +65,27 @@ body, p {
     color: #ffcc00;
 }
 
-.about-me-picture {
-    margin-top: 5px;
-}
-
 .about-me-picture #caption {
     padding: 10px 0 0;
     font-size: 15px;
-    font-weight: bold;
 }
 
-@media (max-width: 992px) {
+img {
+    width: 90%;
+    max-width: 400px;
+    border-radius: 20px;
+}
+
+@media (max-width: 1200px) {
     .about-me-picture {
         display: none;
     }
-}
-
-/* EXPERIENCE */
-
-.experience p {
-    font-size: 20px;
-    padding: 10px 0;
+    .about-me {
+        width: 100%;
+    }
 }
 
 /* SKILLS AND ABILITIES */
-
-.section-label,
-.list-unstyled {
-    padding: 0 25px;
-}
 
 .list-unstyled li {
     padding: 3px 0;
@@ -108,4 +99,20 @@ body, p {
     float: right;
     font-size: 1.5em;
     color: #337AB7;
+}
+
+/* EDUCATION */
+
+.education-label {
+    font-weight: 300;
+}
+
+.glyphicon-chevron-down {
+    float: right;
+}
+
+.cs-coursework,
+.ee-coursework,
+.online-coursework {
+    display: none;
 }

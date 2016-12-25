@@ -13,7 +13,7 @@ p, h1 {
 
 .billboard {
     width: 100%;
-    height: 100%; /* 544px*/
+    height: calc(100% - 53px); /* 544px*/
     background: linear-gradient(rgba(10,10,10,0.3), rgba(10,10,10,0.3)),
                 url(../images/ucla.jpg) 
                 no-repeat center;
