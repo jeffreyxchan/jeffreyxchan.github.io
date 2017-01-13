@@ -25,7 +25,15 @@
 .nav li.active,
 .nav li:hover {
     border-bottom: solid white 2px;
-}   
+}
+
+.navbar-toggle {
+    border: none;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: transparent;
+}
 
 .site-header {
     border: none;
