@@ -28,24 +28,28 @@ $(document).ready(function () {
         
         // displaying the correct set of projects
         if ($(this).children().html() == 'Hardware') {
+            $('.project-container').show();
             $('.hardware-projects').show();
             $('.code-projects').hide();
             $('.webdev-projects').hide();
             $('.ios-projects').hide();
         }
         else if ($(this).children().html() == 'Code') {
+            $('.project-container').show();
             $('.hardware-projects').hide();
             $('.code-projects').show();
             $('.webdev-projects').hide();
             $('.ios-projects').hide();
         }
         else if ($(this).children().html() == 'Web Development') {
+            $('.project-container').show();
             $('.hardware-projects').hide();
             $('.code-projects').hide();
             $('.webdev-projects').show();
             $('.ios-projects').hide();
         }
         else if ($(this).children().html() == 'iOS') {
+            $('.project-container').show();
             $('.hardware-projects').hide();
             $('.code-projects').hide();
             $('.webdev-projects').hide();
@@ -88,4 +92,18 @@ $(document).ready(function () {
     
     // Initialize Semantic UI Dropdown
     $('.dropdown').dropdown();
+    
+//    $('.allweb-filter').click(function () {
+//        $('.project-container').fadeOut();
+//        $('.daily-bruin').fadeIn();
+//        $('.personalweb').fadeIn();
+//    });
+//    $('.personalweb-filter').click(function () {
+//        $('.project-container').fadeOut();
+//        $('.personalweb').fadeIn();
+//    })
+//    $('.daily-bruin-filter').click(function () {
+//        $('.project-container').fadeOut();
+//        $('.daily-bruin').fadeIn();
+//    });
 });

@@ -41,14 +41,14 @@ p, h1 {
 
 .social-media {
     background-color: rgba(255, 255, 255, 0.8);
-    max-width: 480px;
+    max-width: 380px;
     padding: 15px 0;
     margin: 0 auto;
     border-radius: 20px;
 }
 
 .fa {
-    margin: 0 15px;
+    margin: 0 20px;
 }
 
 @media (max-height: 480px) {
