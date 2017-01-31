@@ -91,6 +91,15 @@ img {
     color: #337AB7;
 }
 
+@media (min-width: 992px) {
+    .right-column {
+        padding-right: 70px;
+    }
+    .left-column {
+        padding-left: 70px;
+    }
+}
+
 /* EDUCATION */
 
 .education {
