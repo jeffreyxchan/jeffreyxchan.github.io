@@ -91,7 +91,6 @@
                         <div class='skill'>H-Bridge</div>
                         <div class='skill'>Arduino</div>
                         <div class='skill'>PID Control</div>
-                        <div class='skill'>Infrared</div>
                     </div>
                 </div>
                 <div class='col-md-4'>
@@ -110,7 +109,6 @@
                     </div>
                     <div class='container-fluid skill-tags text-center'>
                         <div class='skill'>Soldering</div>
-                        <div class='skill'>Infrared</div>
                         <div class='skill'>Arduino</div>
                         <div class='skill'>PCB Design</div>
                     </div>
@@ -136,8 +134,6 @@
                     </div>
                     <div class='container-fluid skill-tags text-center'>
                         <div class='skill'>Arduino</div>
-                        <div class='skill'>RGB LED</div>
-                        <div class='skill'>Breadboard</div>
                     </div>
                 </div>
                 <div class='col-md-4'>
@@ -155,8 +151,6 @@
                         <p>The PIANO project focused on creating a three-buttoned device that would emit three-different tones from the speaker, emulating a simple piano. The pitch of these tones could be adjusted by twisting the knob on the potentiometer. It just so happens that the three tones emitted from the buttons form a chord. My soldering skills also improved significantly from the 555 Blinker project.</p>
                     </div>
                     <div class='container-fluid skill-tags text-center'>
-                        <div class='skill'>Potentiometer</div>
-                        <div class='skill'>Speaker</div>
                         <div class='skill'>Soldering</div>
                     </div>
                 </div>
@@ -194,10 +188,7 @@
                         <p>This project was my first project as a student of IEEE at UCLA OPS. It consisted of breadboarding a circuit that emits a sound from the speaker. The pitch of the sound varies based on the amount of light the attached photoresistors are exposed to. The more light it was exposed to, the higher of a frequency the speaker emitted. Having this project come to life really made me happy and inspired me to create more projects.</p>
                     </div>
                     <div class='container-fluid skill-tags text-center'>
-                        <div class='skill'>Breadboard</div>
                         <div class='skill'>555 Timer</div>
-                        <div class='skill'>Photoresistor</div>
-                        <div class='skill'>Speaker</div>
                     </div>
                 </div>
                 <div class='col-md-4' id='no-image'>
@@ -311,15 +302,38 @@
 
         <!-- WEBDEV PROJECTS -->
         <div class='project-group container-fluid webdev-projects'>
-<!--
-            <div class='filter-container'>
+            <div class='filter container'>
                 <ul>
                     <li class='allweb-filter'>All</li>
                     <li class='personalweb-filter'>Personal</li>
                     <li class='daily-bruin-filter'>Daily Bruin</li>
                 </ul>
             </div>
--->
+            <div class='container project-container personal hackathon'>
+                <h1>threadly-on-node</h1>
+                <div class='col-md-7'>
+                    <h3>February 2017</h3>
+
+                    <div class='description'>
+                        <p>Full stack web application that appends user input atop a thread of comments. Comments remain on the webpage even after the page is refreshed and can be deleted from the page and database when clicked on. This project was built on top of an old personal project <a href='http://jeffreyxchan.github.io/threadly' target="_blank">threadly</a> and was also created for Hack on the Hill 2, my first hackthon ever!</p>
+                    </div>
+                    <div class='container-fluid skill-tags'>
+                        <div class='skill'>MongoDB</div>
+                        <div class='skill'>Express</div>
+                        <div class='skill'>Node</div>
+                        <div class='skill'>AJAX</div>
+                    </div>
+                </div>
+                <div class='col-md-5'>
+                    <div class='media-links'>
+                            <div class='links text-center'>
+                            <a href='https://threadly-on-node.herokuapp.com/' target='_blank'><i class='fa fa-link fa-4x'></i></a>
+                            <a href='https://github.com/jeffreyxchan/threadly' target='_blank'><i class='fa fa-github fa-4x'></i></a>
+                        </div>
+                    </div>
+                    <img src='../images/projects/threadly.png' style="width: 100%;" />
+                </div>
+            </div>
             <div class='container project-container daily-bruin'>
                 <h1>UCLA Men's Water Polo Stack Post</h1>
                 <div class='col-md-7'>
@@ -344,7 +358,7 @@
                     <img src='../images/projects/stack-water-polo.png' style="width: 100%;" />
                 </div>
             </div>
-            <div class='container project-container personalweb ieeeweb'>
+            <div class='container project-container personal ieee'>
                 <h1>IDEA Hacks Website</h1>
                 <div class='col-md-7'>
                     <h3>December 2016 | IEEE at UCLA</h3>
@@ -368,7 +382,7 @@
                     <img src='../images/projects/ideahacks.png' style="width: 100%;" />
                 </div>
             </div>
-            <div class='container project-container personalweb'>
+            <div class='container project-container personal'>
                 <h1>Sora</h1>
                 <div class='col-md-7'>
                     <h3>July 2016</h3>
@@ -391,7 +405,7 @@
                     <img src='../images/projects/sora.png' style="width: 100%;" />
                 </div>
             </div>
-            <div class='container project-container personalweb'>
+            <div class='container project-container personal'>
                 <h1>Github Battle</h1>
                 <div class='col-md-7'>
                     <h3>June 2016</h3>
@@ -414,7 +428,7 @@
                     <img src='../images/projects/github-battle.png' style="width: 100%; border: solid 1px black;" />
                 </div>
             </div>
-            <div class='container project-container personalweb'>
+            <div class='container project-container personal'>
                 <h1>Twitter Crawler</h1>
                 <div class='col-md-7'>
                     <h3>May 2016</h3>
@@ -462,13 +476,13 @@
                     <img src='../images/projects/campaign-donations.png' style="width: 100%;" />
                 </div>
             </div>
-            <div class='container project-container personalweb'>
+            <div class='container project-container personal'>
                 <h1>threadly</h1>
                 <div class='col-md-7'>
                     <h3>May 2016</h3>
 
                     <div class='description'>
-                        <p>A simple interactive webpage that uses jQuery to append user input onto the top of a thread of comments on the page. It simulates the effect of writing down thoughts on scratch paper or a notepad.</p>
+                        <p>A static and interactive webpage that uses jQuery to append user input onto the top of a thread of comments on the page. It allows users to quickly record notes and thoughts that they have. This project was later made into a full stack project called <a href='https://threadly-on-node.herokuapp.com/' target="_blank">threadly-on-node</a> in which the JS stack was implemented in order to save and delete comments on the page.</p>
                     </div>
                     <div class='container-fluid skill-tags'>
                         <div class='skill'>HTML</div>
@@ -492,7 +506,7 @@
                     <h3>Feb 2016 | <a href='http://graphics.dailybruin.com/prime/' target="_blank">prime</a></h3>
 
                     <div class='description'>
-                        <p>After joining Daily Bruin, this page was the first project I got to work on. I was placed on a development team and had a chance to practice my skills in HTML and CSS. This page focused on how wearing athletic cloathing was quickly becoming the casual in today's culture.</p>
+                        <p>A Daily Bruin artcle about how athletic cloathing was becoming the new casual in today's culture. After joining Daily Bruin, this was the first project I got to work on. I was placed on a development team and had a chance to practice my skills in HTML and CSS.</p>
                     </div>
                     <div class='container-fluid skill-tags'>
                         <div class='skill'>HTML</div>
@@ -509,8 +523,7 @@
                     <img src='../images/projects/athleisure.jpg' style="width: 100%;" />
                 </div>
             </div>
-
-            <div class='container project-container personalweb'>
+            <div class='container project-container personal'>
                 <h1>Personal Website</h1>
                 <div class='col-md-12'>
                     <h3>In Progress since Nov 2015</h3>

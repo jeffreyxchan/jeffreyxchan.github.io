@@ -96,6 +96,27 @@ hr {
     padding: 20px 0;
 }
 
+.filter {
+    text-align: center;
+}
+
+.filter ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.filter li {
+    display: inline-block;
+    float: left;
+    padding: 10px 20px;
+    margin: -5px 20px -20px;
+    border-radius: 5px;
+    border: solid black 1px;
+    cursor: pointer;
+}
+
 .project-container {
     padding: 30px 5%;
     text-align: center;
@@ -109,6 +130,9 @@ hr {
     img, #no-image, video {
         max-width: 450px;
         margin-top: 25px;
+    }
+    .filter {
+        display: none;
     }
 }
 

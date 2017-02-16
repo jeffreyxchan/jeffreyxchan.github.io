@@ -93,17 +93,20 @@ $(document).ready(function () {
     // Initialize Semantic UI Dropdown
     $('.dropdown').dropdown();
     
-//    $('.allweb-filter').click(function () {
-//        $('.project-container').fadeOut();
-//        $('.daily-bruin').fadeIn();
-//        $('.personalweb').fadeIn();
-//    });
-//    $('.personalweb-filter').click(function () {
-//        $('.project-container').fadeOut();
-//        $('.personalweb').fadeIn();
-//    })
-//    $('.daily-bruin-filter').click(function () {
-//        $('.project-container').fadeOut();
-//        $('.daily-bruin').fadeIn();
-//    });
+    $('.allweb-filter').click(function () {
+        clearProjects();
+        $('.webdev-projects .project-container').fadeIn();
+    });
+    $('.personalweb-filter').click(function () {
+        clearProjects();
+        $('.webdev-projects .personal').fadeIn();
+    })
+    $('.daily-bruin-filter').click(function () {
+        $('.project-container').fadeOut();
+        $('.webdev-projects .daily-bruin').fadeIn();
+    });
+    
+    function clearProjects () {
+        $('.project-container').fadeOut();
+    }
 });

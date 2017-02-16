@@ -3,23 +3,23 @@
 .navbar {
     margin: 0;
     border-radius: 0;
-    padding: 0px 3%;
+    padding: 0px 2%;
     background-color: black;
     color: white;
-    
-    font-size: 20px;
 }
 
 .navbar-inverse .navbar-brand,
 #myNavbar a {
-    font-size: 20px;
+    font-size: 26px;
     color: white;
 }
 
+.navbar-header,
 .nav li {
-    padding: 0px 0px;
+    padding: 8px 0px;
     margin: 0px 10px;
     color: white;
+    font-weight: bold;
 }
 
 .nav li.active,
