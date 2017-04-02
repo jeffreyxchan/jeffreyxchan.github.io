@@ -199,7 +199,60 @@
 
         <!-- SOFTWARE PROJECTS -->
         <div class='project-group container-fluid code-projects'>
-            <div class='container project-container'>
+            <div class='filter container'>
+                <div class='row'>
+                    <div class='col-sm-5 language-filter' style='text-align: left; padding: 0;'>
+                        <p><b>Languages:</b> <span class='filter-item'>All</span> <span class='filter-item'>C++</span> <span class='filter-item'>Python</span> <span class='filter-item'>Shell</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class='container project-container ieee python shell'>
+                <h1>Occupancy Sensor</h1>
+                <div class='col-md-8'>
+                    <h3>Completed February 2017 | IEEE at UCLA</h3>
+
+                    <div class='description'>
+                        <p>A Python script that interacts with the Slack API as a bot. It runs on a Raspberry Pi connected to a router within IEEE at UCLA's lab. When asked who's in the lab, the bot runs an arp-scan and checks against a list of mac addresses whether any IEEE officers are connected to it. It then replies to the user with a list of officers that it has seen, notifying the user whether the IEEE lab is open.</p>
+                    </div>
+                    <div class='container-fluid skill-tags text-center'>
+                        <div class='skill'>Python</div>
+                        <div class='skill'>Shell</div>
+                        <div class='skill'>Slack API</div>
+                    </div>
+                </div>
+                <div class='col-md-4'>
+                    <div class='media-links'>
+                        <div class='links text-center'>
+                            <a href='https://github.com/UCLA-IEEE/occupancy-sensor' target='_blank'><i class='fa fa-github fa-4x'></i></a>
+                        </div>
+                    </div>
+                    <img src='../images/projects/occupancy-sensor.png' style="width: 100%;" />
+                </div>
+            </div>
+            <div class='container project-container personal python'>
+                <h1>Web Scanner</h1>
+                <div class='col-md-8'>
+                    <h3>Completed August 2016</h3>
+
+                    <div class='description'>
+                        <p>A Python web crawler that searches for keywords within specified webpages. This script traverses through a list of websites, crawls through the HTML of the pages for keywords, and sends out an email report on what it finds. It also has the ability to visit embedded links within a webpage based on whether the link contains a keyword. I originally named it Launch Locator because it was used to look for public satellite launch information from companies like Boeing and Yahsat.</p>
+                    </div>
+                    <div class='container-fluid skill-tags text-center'>
+                        <div class='skill'>Python</div>
+                        <div class='skill'>Beautiful Soup</div>
+                        <div class='skill'>Web Crawling</div>
+                    </div>
+                </div>
+                <div class='col-md-4' style='margin-top: 50px;'>
+                    <div class='media-links'>
+                        <div class='links text-center'>
+                            <a href='https://github.com/jeffreyxchan/Web-Scanner' target='_blank'><i class='fa fa-github fa-4x'></i></a>
+                        </div>
+                    </div>
+                    <img src='../images/projects/web-scanner.png' style="width: 100%;" />
+                </div>
+            </div>
+            <div class='container project-container coursework cpp'>
                 <h1>Cyber Spider</h1>
                 <div class='col-md-8'>
                     <h3>Completed Mar 2016 | UCLA CS 32 Project 4</h3>
@@ -223,8 +276,7 @@
                     <h1 id='no-image'>No image available</h1>
                 </div>
             </div>
-
-            <div class='container project-container'>
+            <div class='container project-container coursework cpp'>
                 <h1>Frackman</h1>
                 <div class='col-md-8'>
                     <h3>Completed Feb 2016 | UCLA CS 32 Project 3</h3>
@@ -251,8 +303,7 @@
                     </a>
                 </div>
             </div>
-
-            <div class='container project-container'>
+            <div class='container project-container coursework cpp'>
                 <h1>Rage Against the Robots</h1>
                 <div class='col-md-8'>
                     <h3>Completed Jan 2016 | UCLA CS 32 Project 1</h3>
@@ -275,8 +326,7 @@
                     <img src='../images/projects/machines.png' style="width: 100%;" />
                 </div>
             </div>
-
-            <div class='container project-container'>
+            <div class='container project-container coursework cpp'>
                 <h1>Rocks and Pebbles</h1>
                 <div class='col-md-8'>
                     <h3>Completed Nov 2015 | UCLA CS 31 Project 5</h3>
@@ -303,13 +353,39 @@
         <!-- WEBDEV PROJECTS -->
         <div class='project-group container-fluid webdev-projects'>
             <div class='filter container'>
-                <ul>
-                    <li class='allweb-filter'>All</li>
-                    <li class='personalweb-filter'>Personal</li>
-                    <li class='daily-bruin-filter'>Daily Bruin</li>
-                </ul>
+                <div class='row'>
+                    <div class='col-sm-5 category-filter' style='text-align: left; padding: 0;'>
+                        <p><b>Categories:</b> <span class='filter-item'>All</span> <span class='filter-item'>Personal</span> <span class='filter-item'>Daily Bruin</span></p>
+                    </div>
+                    <div class='col-sm-7 language-filter' style='text-align: left; padding: 0;'>
+                        <p><b>Technologies:</b> <span class='filter-item'>MongoDB</span> <span class='filter-item'>Express.js</span> <span class='filter-item'>React.js</span> <span class='filter-item'>Node.js</span> <span class='filter-item'>D3.js</span></p>
+                    </div>
+                </div>
             </div>
-            <div class='container project-container personal hackathon'>
+            <div class='container project-container daily-bruin js d3'>
+                <h1>UCLA Research Funding Stack Post</h1>
+                <div class='col-md-7'>
+                    <h3>February 2017</h3>
+
+                    <div class='description'>
+                        <p>Blog post for <a href='http://stack.dailybruin.com/' target="_blank">The Stack</a> that uses D3.js to visualize how research funding is spread around UCLA. For this post, our team mined through UCLA's public research funding information and represented it with a pie chart and a bar graph so that readers can interpret the trends in research funding.</p>
+                    </div>
+                    <div class='container-fluid skill-tags'>
+                        <div class='skill'>JavaScript</div>
+                        <div class='skill'>D3.js</div>
+                    </div>
+                </div>
+                <div class='col-md-5'>
+                    <div class='media-links'>
+                            <div class='links text-center'>
+                            <a href='http://stack.dailybruin.com/2017/02/23/research-funding/' target='_blank'><i class='fa fa-link fa-4x'></i></a>
+                            <a href='https://github.com/daily-bruin/the-stack' target='_blank'><i class='fa fa-github fa-4x'></i></a>
+                        </div>
+                    </div>
+                    <img src='../images/projects/research-funding.png' style="width: 100%;" />
+                </div>
+            </div>
+            <div class='container project-container personal hackathon mongo express node ajax'>
                 <h1>threadly-on-node</h1>
                 <div class='col-md-7'>
                     <h3>February 2017</h3>
@@ -334,7 +410,7 @@
                     <img src='../images/projects/threadly.png' style="width: 100%;" />
                 </div>
             </div>
-            <div class='container project-container daily-bruin'>
+            <div class='container project-container daily-bruin js d3'>
                 <h1>UCLA Men's Water Polo Stack Post</h1>
                 <div class='col-md-7'>
                     <h3>December 2016 | <a href='http://stack.dailybruin.com/' target="_blank">The Stack</a></h3>
@@ -358,7 +434,7 @@
                     <img src='../images/projects/stack-water-polo.png' style="width: 100%;" />
                 </div>
             </div>
-            <div class='container project-container personal ieee'>
+            <div class='container project-container personal ieee node express'>
                 <h1>IDEA Hacks Website</h1>
                 <div class='col-md-7'>
                     <h3>December 2016 | IEEE at UCLA</h3>
@@ -382,7 +458,7 @@
                     <img src='../images/projects/ideahacks.png' style="width: 100%;" />
                 </div>
             </div>
-            <div class='container project-container personal'>
+            <div class='container project-container personal react webpack'>
                 <h1>Sora</h1>
                 <div class='col-md-7'>
                     <h3>July 2016</h3>
@@ -405,7 +481,7 @@
                     <img src='../images/projects/sora.png' style="width: 100%;" />
                 </div>
             </div>
-            <div class='container project-container personal'>
+            <div class='container project-container personal react webpack'>
                 <h1>Github Battle</h1>
                 <div class='col-md-7'>
                     <h3>June 2016</h3>
@@ -428,7 +504,7 @@
                     <img src='../images/projects/github-battle.png' style="width: 100%; border: solid 1px black;" />
                 </div>
             </div>
-            <div class='container project-container personal'>
+            <div class='container project-container personal express react node twitter-api'>
                 <h1>Twitter Crawler</h1>
                 <div class='col-md-7'>
                     <h3>May 2016</h3>
@@ -453,7 +529,7 @@
                     <img src='../images/projects/twitter-crawler.png' style="width: 100%; border: solid 1px deepskyblue;" />
                 </div>
             </div>
-            <div class='container project-container daily-bruin'>
+            <div class='container project-container daily-bruin js d3'>
                 <h1>Presidential Campaign Donations Stack Post</h1>
                 <div class='col-md-7'>
                     <h3>May 2016 | <a href='http://stack.dailybruin.com/' target="_blank">The Stack</a></h3>
@@ -476,7 +552,7 @@
                     <img src='../images/projects/campaign-donations.png' style="width: 100%;" />
                 </div>
             </div>
-            <div class='container project-container personal'>
+            <div class='container project-container personal js'>
                 <h1>threadly</h1>
                 <div class='col-md-7'>
                     <h3>May 2016</h3>
@@ -523,7 +599,7 @@
                     <img src='../images/projects/athleisure.jpg' style="width: 100%;" />
                 </div>
             </div>
-            <div class='container project-container personal'>
+            <div class='container project-container personal js'>
                 <h1>Personal Website</h1>
                 <div class='col-md-12'>
                     <h3>In Progress since Nov 2015</h3>
@@ -543,6 +619,28 @@
         <!-- IOS PROJECT -->
         <div class='project-group container-fluid ios-projects'>
             <div class='container project-container'>
+                <h1>Tipsy</h1>
+                <div class='col-md-7'>
+                    <h3>March 2017</h3>
+                    <div class='description'>
+                        <p>An iOS tip calculator application written in Swift. Users can open the app and input the price of their meal and the calculator will calculate a suggested tip amount based on the specified percentage. Users have the option of adjusting the default tip percentage in the settings menu. In the bottom section, the calculator splits the bill up to 5 people, to make splitting the bill easier for larger groups of people.</p>
+                    </div>
+                    <div class='container-fluid skill-tags text-center'>
+                        <div class='skill'>Swift</div>
+                        <div class='skill'>Xcode</div>
+                    </div>
+                </div>
+                <div class='col-md-5'>
+                    <div class='media-links text-center'>
+                        <div class='links'>
+                            <a href='https://github.com/jeffreyxchan/Tipsy' target='_blank'><i class='fa fa-github fa-5x'></i></a>
+                        </div>
+                    </div>
+                    <img src='http://i.imgur.com/KFmH5W3.gif' style="width: 50%;" />
+                </div>
+            </div>
+            
+            <div class='container project-container'>
                 <h1>Calculator</h1>
                 <div class='col-md-7'>
                     <h3>December 2016</h3>
@@ -561,10 +659,10 @@
                             <a href='https://github.com/jeffreyxchan/Calculator' target='_blank'><i class='fa fa-github fa-5x'></i></a>
                         </div>
                     </div>
-                    <img src='../images/projects/calculator.png' style="width: 50%;" />
+                    <img src='http://i.imgur.com/wsp4BCj.gif' style="width: 50%;" />
                 </div>
             </div>
-</div>
+        </div>
     </div>
     
     <!-- FOOTER -->

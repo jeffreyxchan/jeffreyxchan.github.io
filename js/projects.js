@@ -27,33 +27,13 @@ $(document).ready(function () {
         $('.text').html(selection);
         
         // displaying the correct set of projects
-        if ($(this).children().html() == 'Hardware') {
-            $('.project-container').show();
-            $('.hardware-projects').show();
-            $('.code-projects').hide();
-            $('.webdev-projects').hide();
-            $('.ios-projects').hide();
-        }
-        else if ($(this).children().html() == 'Code') {
-            $('.project-container').show();
-            $('.hardware-projects').hide();
-            $('.code-projects').show();
-            $('.webdev-projects').hide();
-            $('.ios-projects').hide();
-        }
-        else if ($(this).children().html() == 'Web Development') {
-            $('.project-container').show();
-            $('.hardware-projects').hide();
-            $('.code-projects').hide();
-            $('.webdev-projects').show();
-            $('.ios-projects').hide();
-        }
-        else if ($(this).children().html() == 'iOS') {
-            $('.project-container').show();
-            $('.hardware-projects').hide();
-            $('.code-projects').hide();
-            $('.webdev-projects').hide();
-            $('.ios-projects').show();
+        $('.project-container').show();
+        $('.project-group').hide();
+        switch ($(this).children().html()) {
+            case 'Hardware': $('.hardware-projects').show(); break;
+            case 'Code': $('.code-projects').show(); break;
+            case 'Web Development': $('.webdev-projects').show(); break;
+            case 'iOS': $('.ios-projects').show(); break;
         }
     });
     
@@ -65,7 +45,6 @@ $(document).ready(function () {
         }
         return true;
     });
-    
     $('.media-links').click(function () {
         toggleOpacity($(this));
     }).hover(function () {
@@ -78,6 +57,44 @@ $(document).ready(function () {
         }
     });
     
+    // initialize semantic ui dropdown
+    $('.dropdown').dropdown();
+    
+    // project filter code
+    $('.filter-item').click(function () {
+        clearProjects();
+        var selection = '';
+        
+        switch ($('.project-navbar .active').children().html()) {
+            case 'Hardware': selection += '.hardware-projects .'; break;
+            case 'Code': selection += '.code-projects .'; break;
+            case 'Web Development': selection += '.webdev-projects .'; break;
+            case 'iOS': selection += '.ios-projects .'; break;
+        }
+        
+        switch ($(this).html()) {
+            case 'All': selection += 'project-container'; break;
+            case 'Personal': selection += 'personal'; break;
+            case 'Daily Bruin': selection += 'daily-bruin'; break;
+            case 'MongoDB': selection += 'mongo'; break;
+            case 'Express.js': selection += 'express'; break;
+            case 'React.js': selection += 'react'; break;
+            case 'Node.js': selection += 'node'; break;
+            case 'D3.js': selection += 'd3'; break;
+            case 'C++': selection += 'cpp'; break;
+            case 'Python': selection += 'python'; break
+            case 'Shell': selection += 'shell'; break;
+        }
+        
+        $(selection).fadeIn();
+    });
+    
+    // function to clear all projects
+    function clearProjects () {
+        $('.project-container').fadeOut();
+    }
+    
+    // toggles opacity of a jquery selected item
     function toggleOpacity (item) {
         if ($(item).css("opacity") === "1") {
             $(item).css({
@@ -88,25 +105,5 @@ $(document).ready(function () {
                 opacity: "1"
             });
         }
-    }
-    
-    // Initialize Semantic UI Dropdown
-    $('.dropdown').dropdown();
-    
-    $('.allweb-filter').click(function () {
-        clearProjects();
-        $('.webdev-projects .project-container').fadeIn();
-    });
-    $('.personalweb-filter').click(function () {
-        clearProjects();
-        $('.webdev-projects .personal').fadeIn();
-    })
-    $('.daily-bruin-filter').click(function () {
-        $('.project-container').fadeOut();
-        $('.webdev-projects .daily-bruin').fadeIn();
-    });
-    
-    function clearProjects () {
-        $('.project-container').fadeOut();
     }
 });
