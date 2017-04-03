@@ -10,7 +10,7 @@
 
 .navbar-inverse .navbar-brand,
 #myNavbar a {
-    font-size: 26px;
+    font-size: 22px;
     color: white;
 }
 
@@ -20,11 +20,6 @@
     margin: 0px 10px;
     color: white;
     font-weight: bold;
-}
-
-.nav li.active,
-.nav li:hover {
-    border-bottom: solid white 2px;
 }
 
 .navbar-toggle {

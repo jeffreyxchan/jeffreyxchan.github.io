@@ -40,15 +40,17 @@ p, h1 {
 }
 
 .social-media {
-    background-color: rgba(255, 255, 255, 0.8);
-    max-width: 380px;
+    position: fixed;
+    width: 380px;
     padding: 15px 0;
-    margin: 0 auto;
-    border-radius: 20px;
+    bottom: 10%;
+    left: 50%;
+    margin-left: -190px;
 }
 
 .fa {
     margin: 0 20px;
+    color: white;
 }
 
 @media (max-height: 480px) {
@@ -63,9 +65,6 @@ p, h1 {
 @media (max-width: 425px) {
     .billboard-text h1 {
         font-size: 50px;
-        width: 90%;
-    }
-    .social-media {
         width: 90%;
     }
     .fa {
