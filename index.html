@@ -4,29 +4,37 @@ layout: default
 
 <div class="cmd-section">
 	<h1>whoami</h1>
-	<p>Hi! My name is Jeffrey and I'm a 21 year old software engineer....</p>
+	<p>Hi! My name is Jeffrey and I'm a 21 year old software engineer based in the California Bay Area.
+	I'm currently finishing my last year at UCLA studying Computer Science and Engineering. After that, I hope
+	to pursue full time opportunities and continue pursuing topics that I'm interested in, such as computer architecture,
+	operating systems, networks, and full stack web development (so a lot of low-level stuff).</p>
+
+	<p>In my free time, I enjoy lifitng heavy objects and putting them back down, challenging my friends keep up with me
+	at KBBQ, exploring the Bay Area, and going out with friends. I think I have an interesting preference in EDM music and
+	constantly look for people to share my playlist with. I'm completely stuck in the Apple product ecosystem and patiently wait
+	for each year's new software and hardware.</p>
 </div>
 
 <div class="cmd-section">
 	<h1>cat skills.md</h1>
-	<p>Hi! My name is Jeffrey and I'm a 21 year old software engineer....</p>
+	<p><span class="red"># Languages</span> C/C++, Python, Golang, HTML/CSS, JavaScript, PHP</p>
+	<p><span class="red"># Web Technologies</span> MongoDB, Express.js React.js Node.js, D3.js, Apache, MySQL, Nginx, Kubernetes</p>
+	<p><span class="red"># Other Software</span> Docker, Git/GitHub, Bash, AWS, Heroku</p>
 </div>
 
 <div class="cmd-section">
 	<h1>history</h1>
 	{% for job in site.data.experience %}
 	<p>{{job.name}} - {{job.position}} <span class="date">{{job.duration}}</span></p>
-	{% endfor%}
+	{% endfor %}
 </div>
 
 <div class="cmd-section">
 	<h1>ls projects</h1>
-	<p>Blend - Software Engineer Intern <span class="date">Sept 2018 - Dec 2018</span></p>
-	<p>Amazon A9 - Software Development Intern <span class="date">June 2018 - Sept 2018</span></p>
-	<p>Whalerock Industires - Software Engineer Intern <span class="date">June 2017 - Sept 2018</span></p>
-	<p>NASA JPL - Web Development Intern <span class="date">June 2016 - Sept 2018</span></p>
-	<p>IEEE at UCLA - Webmaster - May 2016 - May 2018</span></p>
-	<p>Front End Developer - Daily Bruin - Jan 2016 - May 2018</span></p>
+	{% for project in site.data.projects limit:5 %}
+	<a href="{{project.url}}" target="_blank"><p>{{project.name}} - {{project.description}}</p></a>
+	{% endfor %}
+	<p><a href="https://www.github.com/jeffreyxchan">** Check out the rest on GitHub **</a></p>
 </div>
 
 <div class="cmd-section">

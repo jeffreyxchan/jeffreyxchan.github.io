@@ -1,0 +1,15 @@
+- name: Wiki (IEEE at UCLA)
+  url: http://w.ieeebruins.com/
+  description: Content and documentation management system for IEEE at UCLA
+
+- name: BruinMeet
+  url: https://www.bruinmeet.com
+  description: Matchmaking application exclusively for UCLA students
+
+- name: IDEA Hacks
+  url: https://github.com/ideahacks/ideahacks.la
+  description: Web application used for the IDEA Hacks hardware hackathon
+
+- name: Webtools (IEEE at UCLA)
+  url: https://github.com/UCLA-IEEE/webtools.ieeebruins.com
+  description: Set of services built for IEEE at UCLA
