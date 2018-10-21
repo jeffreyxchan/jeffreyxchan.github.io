@@ -1,0 +1,65 @@
+html,
+body {
+  margin: 0;
+  background-color: #11112f;
+}
+
+body {
+  padding: 20px 50px;
+}
+
+* {
+  font-family: "Menlo", "Source Code Pro", "Courier New", monospace;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+h1 {
+  font-size: 26px;
+  color: #5297ff;
+
+  margin: 10px 0 0;
+}
+
+h1.title {
+  font-size: 45px;
+  letter-spacing: 2px;
+  padding: 10px 0 25px;
+  color: white;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 40px 0;
+}
+
+p {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  color: #42a75f;
+}
+
+li {
+  margin: 15px 0;
+}
+
+.cmd-section,
+.post-content {
+  max-width: 950px;
+  padding: 5px 0 10px;
+}
+
+.cmd-section h1::before {
+  content: "jeffreyxchan: ~$ ";
+}
+
+span.date {
+  font-size: 11px;
+  color: #e06c75;
+}
+
+span.light-blue {
+  color: #7b9bcd;
+}

@@ -1,32 +1,21 @@
 ---
 layout: default
 ---
-<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+<article class="post">
+	<!-- POST HEADING -->
+	<header class="post-header text-center">
+		<h1 class="post-title" itemprop="name headline">{{ page.date | date: "%b %d %Y" }} | {{ page.author }}</h1>
+	</header>
 
-    <header class="post-header text-center">
-        <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-        <p class="post-meta">
-            <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
-            {% if page.author %}
-                | <span itemprop="author" >{{ page.author }}</span>
-            {% endif %}
-        </p>
-    </header>
-    
-    {% if page.picture %}
-        <div class='article-picture'>
-            <img src='{{page.picture | prepend: site.baseurl}}' />
-        </div>
-    {% endif %}
+	<!-- POST CONTENT -->
+	<div class="post-content" itemprop="articleBody" style="padding: 20px 0;">
+		{{ content }}
+	</div>
 
-    <div class="post-content" itemprop="articleBody">
-        {{ content }}
-    </div>
-    
-    <div class='footer-button'>
-        <a href="{{ "/blog" | prepend: site.baseurl }}">
-            <div class='text-center footer-button blog-button'>Return to Blog</div>
+	<!-- POST FOOTER -->
+	<div class='footer-button'>
+		<a href="{{ "/notes" | prepend: site.baseurl }}">
+            <h2>Return to Notes</h2>
         </a>
-    </div>
+	</div>
 </article>
-
