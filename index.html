@@ -39,7 +39,7 @@ layout: default
 
 <div class="cmd-section">
 	<h1>ls notes</h1>
-	{% for post in site.posts limit:5 %}
+	{% for post in site.posts limit:3 %}
 	<a href="{{ post.url | prepend: site.baseurl }}"><p>{{post.title}} <span class="date">{{post.date | date: "%b %d %Y"}}</span></p></a>
 	{% endfor %}
 	<p><a href="/notes">** See full listing **</a></p>
