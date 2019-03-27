@@ -17,19 +17,19 @@ h1 {
   font-size: 26px;
   color: #5297ff;
 
-  margin: 10px 0 0;
+  margin: 20px 0 0;
 }
 
 h1.title {
   font-size: 45px;
   letter-spacing: 2px;
-  padding: 10px 0 25px;
+  padding: 10px 0;
   color: white;
   text-transform: uppercase;
 }
 
 h2 {
-  margin: 40px 0 10px;
+  margin: 25px 0 10px;
 }
 
 p {
@@ -93,4 +93,23 @@ span.light-blue {
   span.date {
     font-size: 8px;
   }
+}
+
+/* For code blocks */
+pre {
+  background-color: #646d82;
+  padding: 15px 10px;
+  border-radius: 3px;
+}
+
+pre code {
+  display: block;
+}
+
+/* For inline code */
+
+code {
+  background-color: #646d82;
+  padding: 0 8px;
+  border-radius: 3px;
 }
