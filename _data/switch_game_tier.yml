@@ -1,0 +1,120 @@
+tiers:
+  - title: S
+    items:
+      - name: "Octopath Traveler"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/o/octopath-traveler-switch/Switch_OctopathTraveler_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+      - name: "Xenoblade Chronicles 2: Torna the Golden Country"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/x/xenoblade-chronicles-2-torna-the-golden-country-switch/Switch_XBC2-Torna_box.jpg/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+      - name: "Xenoblade Chronicles 2"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/x/xenoblade-chronicles-2-switch/Switch_XenobladeChronicles2_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+      - name: Super Mario Odyssey
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/super-mario-odyssey-switch/Switch_SuperMarioOdyssey_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+      - name: "The Legend of Zelda: Breath of the Wild"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/t/the-legend-of-zelda-breath-of-the-wild-switch/Switch_TLOZ-BOTW_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+      - name: Hollow Knight
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/h/hollow-knight-switch/Switch_HollowKnight_box_eShop.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+  - title: A
+    items:
+      - name: "Overcooked 2"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/o/overcooked-2-switch/Switch_Overcooked2_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+      - name: "Nine Parchments"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/n/nine-parchments-switch/Switch_NineParchments_box_eShop.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+      - name: "Puyo Puyo Tetris"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/p/puyo-puyo-tetris-switch/Switch_PuyoPuyoTetris_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+      - name: "Super Smash Bros. Ultimate"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/super-smash-bros-switch/Switch_Super_Smash_Bros_Ultimate_Box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+  - title: B
+    items:
+      - name: "Stardew Valley"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/stardew-valley-switch/Switch_StardewValley_box_eShop.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+      - name: "BOXBOY! + BOXGIRL!"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/b/boxboy-and-boxgirl-switch/Switch_BoxBoyBoxGirl_box_eShop.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+      - name: Tetris 99
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/t/tetris-99-switch/Switch_Tetris99_box_eShop.png"
+
+      - name: Warframe
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/w/warframe-switch/Switch_Warframe_box_eShop.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+      - name: "Katana Zero"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/k/katana-zero-switch/Switch_KatanaZERO_box_eShop.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+      - name: "Dead Cells"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/d/dead-cells-switch/Switch_DeadCells_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+      - name: "1-2-Switch"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/1/1-2-switch/Switch_12Switch_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+  - title: C
+    items:
+      - name: "Mario + Rabbids: Kingdom Battle"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/m/mario-rabbids-kingdom-battle-switch/Switch_MarioRabbids-KingdomBattle_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+reviews:
+  # The name of the review must matc the name used in the tier mapping/list
+  # The review field takes a filename from the /reviews folder in the post
+
+  - name: "1-2-Switch"
+    review: 1-2-switch
+
+  - name: "The Legend of Zelda: Breath of the Wild"
+    review: botw
+
+  - name: "Super Smash Bros. Ultimate"
+    review: smash-ultimate
+
+  - name: Stardew Valley
+    review: stardew-valley
+
+  - name: Overcooked 2
+    review: overcooked2
+
+  - name: Nine Parchments
+    review: nine-parchments
+
+  - name: Puyo Puyo Tetris
+    review: puyo-puyo-tetris
+
+  - name: Xenoblade Chronicles 2
+    review: xc2
+
+  - name: "BOXBOY! + BOXGIRL!"
+    review: boxboy-boxgirl
+
+  - name: "Octopath Traveler"
+    review: octopath-traveler
+
+  - name: Tetris 99
+    review: tetris-99
+
+  - name: Warframe
+    review: warframe
+
+  - name: "Xenoblade Chronicles 2: Torna the Golden Country"
+    review: xc2-torna
+
+  - name: Katana ZERO
+    review: katana-zero
+
+  - name: Super Mario Odyssey
+    review: super-mario-odyssey
+
+  - name: "Mario + Rabbids: Kingdom Battle"
+    review: mario-rabbids
+
+  - name: Dead Cells
+    review: dead-Cells
+
+  - name: Hollow Knight
+    review: hollow-knight

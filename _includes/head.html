@@ -12,4 +12,22 @@
 
 	<!-- Favicon -->
 	<link rel='shortcut icon' type='image/x-icon' href='/assets/favicon.ico' />
+
+	<!-- Only include jquery if the post needs it -->
+	{% if page.jquery %}
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	{% endif %}
+
+	<!-- Allow posts to specify post specific CSS/JS in prematter -->
+	{% if page.css %}
+	{% for c in page.css %}
+	<link rel="stylesheet" href="/css/{{page.pathname}}/{{ c }}" tyep="text/css" />
+	{% endfor %}
+	{% endif %}
+
+	{% if page.js %}
+	{% for j in page.js %}
+	<script src="/js/{{page.pathname}}/{{ j }}"></script>
+	{% endfor %}
+	{% endif %}
 </head>
