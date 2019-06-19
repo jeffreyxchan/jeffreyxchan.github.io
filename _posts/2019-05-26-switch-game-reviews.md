@@ -4,6 +4,7 @@ title: "My Nintendo Switch Game Reviews"
 date: 2019-05-26
 author: Jeffrey Chan
 pathname: "2019-05-26-switch-game-reviews"
+permalink: notes/switch-game-reviews
 jquery: true
 css:
   - tier.css
