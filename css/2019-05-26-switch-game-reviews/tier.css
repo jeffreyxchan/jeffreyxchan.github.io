@@ -17,6 +17,8 @@
 	max-height: 104px;
 	white-space: nowrap;
 	margin: 4px 0;
+	-ms-overflow-style: none; /* IE 10+ */
+	scrollbar-width: none; /* Firefox */
 }
 
 .game {
