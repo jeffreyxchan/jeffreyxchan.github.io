@@ -44,9 +44,7 @@ game on top.
 {% if item.review %}
 
 <div class="game-review-container">
-    {% comment %}
-    <p class="game-review" style="white-space: pre-wrap;">{% include_relative reviews/{{ item.review }} %}</p>
-    {% endcomment %}
+    <p class="game-review" style="white-space: pre-wrap;">{% include switch_reviews/{{ item.review }} %}</p>
     <p id="show-more-button">Read more...</p>
 </div>
 {% endif %}
