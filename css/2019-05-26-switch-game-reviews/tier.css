@@ -46,3 +46,7 @@ div.text {
 #show-more-button {
 	cursor: pointer;
 }
+
+p.game-review {
+	white-space: pre-wrap;
+}
