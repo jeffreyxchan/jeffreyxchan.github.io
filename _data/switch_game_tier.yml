@@ -30,11 +30,17 @@ tiers:
       - name: "Puyo Puyo Tetris"
         image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/p/puyo-puyo-tetris-switch/Switch_PuyoPuyoTetris_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
 
+      - name: "Dead Cells"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/d/dead-cells-switch/Switch_DeadCells_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
       - name: "Super Smash Bros. Ultimate"
         image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/super-smash-bros-switch/Switch_Super_Smash_Bros_Ultimate_Box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
 
   - title: B
     items:
+      - name: "Moonlighter"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/m/moonlighter-switch/Switch_Moonlighter_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
       - name: "Stardew Valley"
         image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/stardew-valley-switch/Switch_StardewValley_box_eShop.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
 
@@ -49,9 +55,6 @@ tiers:
 
       - name: "Katana Zero"
         image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/k/katana-zero-switch/Switch_KatanaZERO_box_eShop.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
-
-      - name: "Dead Cells"
-        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/d/dead-cells-switch/Switch_DeadCells_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
 
       - name: "1-2-Switch"
         image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/1/1-2-switch/Switch_12Switch_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"

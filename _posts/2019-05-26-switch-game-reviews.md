@@ -333,9 +333,22 @@ Overall advice: This game can be very good (not too sure about the price). Just 
 <h1 class="game-title" id="dead-cells">Dead Cells</h1>
 
 <div class="game-review-container">
-    <p class="game-review">Currently trying to finish this game.
-</p>
+    <p class="game-review">Dead Cells is a game with a lot of hype around it which initially drew me to buy it. Playing it for the first time I was actually pretty disappointed in it and after putting it down for the night. I wasn't too sure if I was going to pick it back up. After finishing my stuff with Hollow Knight, I circled back to Dead Cells and finally finished it and wow I actually had a lot of fun and really enjoyed it.<span id="dots">...</span></p>
+
+    <div id="more" class="text">
+
+Dead Cells is a 2D metroidvania type game with rogue-like elements to it. You start off as this sort of infected warrior and are thrown into a set of dungeons where you'll need to find the exit to proceed to the next map. If you die, you have to start all over from the beginning. However it's not too hopeless because during each run, you collect "cells" and get to spend those cells on permanent upgrades that persist through every run so you'll be a little stronger each time. During your journey, you also find the "blueprints" for all different types of weapons, and spending cells to unlock them will allow you to start picking up these weapons in the dungeons when you fight. Each map in the game is randomly generated (thus rogue-like) and unique for every run that you do.
+
+The game graphics are in bit art and it looks super cool if you're into that. The combat mechanics feels SUPER smooth and satisfying. They included the dodge roll mechanic that allows you to roll pass enemies and attacks without taking damage and it feels super smooth. They also have this smash drop mechanic where you can drop on enemies and deal damage to them. You're capable of wielding four weapons at a time, and making them all work together to do as much damage as possible makes the combat satisfying to master. The combination of all these mechanics and visuals make the gameplay super satisfying.
+
+My favorite weapons in the game is the Broadsword. It's just this huge sword that has a very slow attack speed, but hits super hard. The animation that they gave this sword and how it just slams into everything is super satisfying. Although it swings slow, you can combine it with your dodge roll or jumps to cancel mid-attack, or even continue your attack where you left off if your cancel is short enough. I think because of this weapon alone, I'll be pulling out Dead Cells during my long downtimes and just try to bust enemies with the big sword.
+
+I got this game on sale, but otherwise I think it's definitely worth the price. I gave this game and A rating, and the only reason why it's no an S is because it's actually a pretty small game, and I don't think that can stand in the same tier as the giants in S tier, but Dead Cells is still a super great game.
+
+</div>
+
     <p id="show-more-button">Read more...</p>
+
 </div>
 
 <h1 class="game-title" id="hollow-knight">Hollow Knight</h1>
@@ -356,6 +369,13 @@ This game is worth WAY more than its \$15 retail price. The length, depth, chall
 
 </div>
 </p>
+    <p id="show-more-button">Read more...</p>
+</div>
+
+<h1 class="game-title" id="moonlighter">Moonlighter</h1>
+
+<div class="game-review-container">
+    <p class="game-review">Currently playing.<span id="dots">...</span></p>
     <p id="show-more-button">Read more...</p>
 </div>
 
