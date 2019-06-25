@@ -36,6 +36,9 @@ tiers:
       - name: "Super Smash Bros. Ultimate"
         image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/s/super-smash-bros-switch/Switch_Super_Smash_Bros_Ultimate_Box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
 
+      - name: "Mario Kart 8 Deluxe"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/m/mario-kart-8-deluxe-switch/Switch_MK8-Deluxe_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
   - title: B
     items:
       - name: "Moonlighter"

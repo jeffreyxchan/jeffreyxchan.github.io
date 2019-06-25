@@ -38,15 +38,15 @@ game on top.
 <!-- REVIEWS -->
 
 <h1 class="game-title" id="1-2-switch">1-2-Switch</h1>
-
 <div class="game-review-container">
-    <p class="game-review">1-2-Switch is considered a tech demo for the Nintendo Switch. It's like Wii Sports or Wii Play for the Wii - a compilation of mini-games meant to show off the capabilities of a new console. In 1-2-Switch, you start off with 4-5 mini-games and as you play, you unlock up to a total of 28 games. Each game is designed to utilize some feature of the Nintendo Switch and can be played with the Joycons that came with the Switch with 1-2 players.<span id="dots">...</span>
+<p class="game-review">1-2-Switch is considered a tech demo for the Nintendo Switch. It's like Wii Sports or Wii Play for the Wii - a compilation of mini-games meant to show off the capabilities of a new console. In 1-2-Switch, you start off with 4-5 mini-games and as you play, you unlock up to a total of 28 games. Each game is designed to utilize some feature of the Nintendo Switch and can be played with the Joycons that came with the Switch with 1-2 players.<span id="dots">...</span>
 
-    <div id="more" class="text">The games are fun and can be replayed a bunch of times, but they aren't exactly games that keep you coming back. You invite some friends over just so they could play some of the games on 1-2-Switch. There are probably other games you'd rather play, and after playing the mini-games a couple times, you'll probably be like "Ok I get it, let's move on" and not come back to it again. It's full retail price of $60 also prevented me from giving it a higher rating. Developing and producing 28 games must've been expensive, but the value I got out of it as a player was worth more like $30 or less. Wouldn't recommend purchasing this game to play, unless you already know you'll enjoy the mini-games a lot.
-    </div>
-    </p>
-        <p id="show-more-button">Read more...</p>
-    </div>
+<div id="more" class="text">
+The games are fun and can be replayed a bunch of times, but they aren't exactly games that keep you coming back. You invite some friends over just so they could play some of the games on 1-2-Switch. There are probably other games you'd rather play, and after playing the mini-games a couple times, you'll probably be like "Ok I get it, let's move on" and not come back to it again. It's full retail price of $60 also prevented me from giving it a higher rating. Developing and producing 28 games must've been expensive, but the value I got out of it as a player was worth more like $30 or less. Wouldn't recommend purchasing this game to play, unless you already know you'll enjoy the mini-games a lot.
+</div>
+</p>
+<p id="show-more-button">Read more...</p>
+</div>
 
 <h1 class="game-title" id="the-legend-of-zelda-breath-of-the-wild">The Legend of Zelda: Breath of the Wild</h1>
 
@@ -307,7 +307,6 @@ I ended up spending around 15 hours in the game and collected about 200 moons. T
 The ending is super satisfying. I don't want to spoil it, but I thought the music at the end was absolutely BOMB and put a smile on my face as I was finishing up the game.
 
 I wasn't able to put as many hours into this as BOTW, XC2, or Octopath, but I think this game is super worth it and is super fun. It can be the perfect game to take out on long commutes or random idle periods in life when you just want to go collect some moons and chill out.
-
 </div>
 </p>
     <p id="show-more-button">Read more...</p>
@@ -324,7 +323,6 @@ The characters aren't charming to me. I've never encountered the Rabbids until t
 From this game, I learned that I'm just not into this sort of combat system. You have to take advantage of the geography of the map as well as the positioning of your characters and the enemies. I can definitely see how this combat system would need a good amount of strategy and thinking in order to be successful, which is just fine. I'm just unsatisfied with how slow everything went. Like having to wait for all the animations, and then waiting for the enemy to complete their turn, was too painful for me. They even have an option to speed up the enemies turn, but that still didn't feel fast enough for me. I guess I just wanted it to end faster. I've seen a couple of JRPG's use a similar combat system, which is making me question whether I should give those a try, or just stay away completely because I already know I might not like them.
 
 Overall advice: This game can be very good (not too sure about the price). Just do your research and know what type of game it is before making this purchase. I'm just glad I was able to get it on sale.
-
 </div>
 </p>
     <p id="show-more-button">Read more...</p>
@@ -344,7 +342,6 @@ The game graphics are in bit art and it looks super cool if you're into that. Th
 My favorite weapons in the game is the Broadsword. It's just this huge sword that has a very slow attack speed, but hits super hard. The animation that they gave this sword and how it just slams into everything is super satisfying. Although it swings slow, you can combine it with your dodge roll or jumps to cancel mid-attack, or even continue your attack where you left off if your cancel is short enough. I think because of this weapon alone, I'll be pulling out Dead Cells during my long downtimes and just try to bust enemies with the big sword.
 
 I got this game on sale, but otherwise I think it's definitely worth the price. I gave this game and A rating, and the only reason why it's no an S is because it's actually a pretty small game, and I don't think that can stand in the same tier as the giants in S tier, but Dead Cells is still a super great game.
-
 </div>
 
     <p id="show-more-button">Read more...</p>
@@ -366,17 +363,49 @@ The boss battles were HARD, but I had a lot of fun playing them. There's somethi
 While playing this game, I searched up a walkthrough of the game, which I take no shame in because being able to find my way through the game makes it much more enjoyable instead of me having to quit and never finish it. I would put down the walkthrough when I wanted to play the game myself though.
 
 This game is worth WAY more than its \$15 retail price. The length, depth, challenge, and rewards in this game are just so deep and vast. Similar games go for a much higher price. I put around 25 hours into this game, and there's still so much more of the game to be played. There's even a bunch of DLC you can dive into if you're absolutely in love with the game. It is a pretty DIFFICULT game though, so you need to have a certain level of patience and affinity for hard games for me to suggest this game to you. But for those of you that can handle it, I'd say this is an absolutely amazing game worth trying.
-
 </div>
 </p>
     <p id="show-more-button">Read more...</p>
 </div>
 
+<!-- Moonlighter -->
 <h1 class="game-title" id="moonlighter">Moonlighter</h1>
-
 <div class="game-review-container">
-    <p class="game-review">Currently playing.<span id="dots">...</span></p>
-    <p id="show-more-button">Read more...</p>
+<p class="game-review">In Moonlighter, you take on the role of Will, the merchant owner of a store called Moonlighter in a small town next to five dungeons. The town used to be filled with heroes who would explore the dungeons, and merchants who would sell equipment to them. But numerous deaths in the dungeons caused them to close down and city to slowly dwindle. Will has a dream of one day exploring the fifth dungeon. The concept of this game is to help will explore the dungeons, and while doing so, bring back found artifacts to sell in your store. As you gain more gold, you can buy upgrades to your town, store, equipment, etc. that'll make you stronger and help you progress further in the dungeons.<span id="dots">...</span>
+</p>
+
+<div id="more" class="text">
+
+When I first started playing this game, I fell in love with the concept. The concept of the game, and the pixelated art reminds me of Stardew Valley. Moonlighter is more of a linear game where aside from the shopkeeping, you have a main goal of clearing all of the dungeons and helping Will enter the fifth dungeon. When you're not fighting in the dungeon, you come back to down and strategize about how you're going to profit on your collected artifacts, and what upgrades you should spend your money on. It's a super fun concept to play and I just loved it.
+
+I guess going further into the game, there were a couple of things that started to annoy me. I got a little bored of the rogue-like structure of the game... maybe rogue-likes like this one just aren't for me. Entering the dungeons and fighting monsters all the time started to get a little boring. The combat mechanics never really evolve, so going in the dungeons and using the same combat mechanics over and over got boring. There are different weapons to explore, leading to different combat styles you can choose from, but weapons are expensive so I didn't want to change it up when I found something that worked.
+
+There were also a couple of bugs and glitches in the game that annoyed me. I was able to "dodge roll" out of my own store walls, and there was no quick way for me to get back in and serve my customers, so I had to reload the game. In the game, there's a "popularity" mechanic where the price of your goods change based on how much your customers value it, but that has literally never shown up. All items seem to always sell at a single price in my game and never change popularity. There are indeed a couple times the game has experience frame drops, which boggles me because this definitely shouldn't be a high power game.
+
+There are different types of weapons to choose from. However within each weapon class, there are different types of weapons you can choose from. I feel like these different types... literally make no difference at all. For example, there are three type of short sword in the game you can buy, two of which are actually different and unique, while the third is just a re-skin of the first one... so it's just repetitive content with no purpose.
+
+Despite all the negative things I've said about this game, I still love the concept and have been having a lot of fun playing it. I intend on finishing it and seeing the end of this story. This game is priced at $20, and I got it on sale which is an even better deal. My negative comments and low rating shouldn't discourage you from giving this game a try. I just think that a game with this many technical issues cannot stand with the games in my S and A tier.
+</div>
+
+<p id="show-more-button">Read more...</p>
+</div>
+
+<!-- Mario Kart 8 Deluxe -->
+<h1 class="game-title" id="mario-kart-8-deluxe">Mario Kart 8 Deluxe</h1>
+<div class="game-review-container">
+<p id="game-review">
+Mario Kart 8 Deluxe is the most up-to-date version of Mario kart that Nintendo has to offer. It's a re-release for the original Mario Kart 8 release for the WiiU that probably did poorly in proportion to the performance of the WiiU in the market. For this re-release, they did include some switch-exclusive content to try and make it seem like a better value as well as motive owners of the original game to upgrade to this version. I got this game on sale for $40 (originally $60 during E3 sales). Luckily it was on sale because IMO This game might not be worth $60.<span id="dots">...</span>
+</p>
+
+<div id="more" class="text">
+
+My main disappointment in the game... is that it's JUST Mario Kart. The game really hasn't changed at all from the DS, Wii, and N64 days (all of which I've played before and are probably just super used to). I think after all these years, the only immediate differences are the newly designed courses, the skins on the karts, and the number of playable characters. But despite those content changes, the game just feels completely the same. It brings back a lot of nostalgia, but there's nothing new or exciting to draw me in. When purchasing the game, all tracks, characters, and karts are released, which is a total downer for me because there's no reason for me to play this single player. It's literally just a means of playing Mario Kart with your friends.
+
+But another thing that disappoints me is the online multiplayer. If you want to play with your friends across switches, everyone will need a Nintendo Online subscription, which is super annoying. If you and all your friends already have Online, then this is probably not a problem and probably a huge benefit for you because you could hop into a game with your friends no matter where they are. I just graduate college and won't be seeing my friends in person too often anymore, and can't replicate this because no one else has Online.
+
+That being said, this game is indeed the best Mario Kart ever made. It's combined all the best aspects of all the Mario Kart games in the past. The online multiplayer is great because it gives you the opportunity to race against your friends whenever you want. I believe there's motion control steering on the Joycons but you can also just steer with the Joystick. If you're super into the game and get a lot of joy from racing with you friends or the computer on varying difficulties, then this is still one of the best racing games out in the market right now and you should definitely get it. Mario Kart is still a great game to break out among you friends to immediately have a good time and is the game everyone's most familiar with or can learn super quickly because of its simplicity and popularity. It has infinite replayability, which is probably the one thing holding it in my A tier instead of dropping down to B.
+</div>
+<p id="show-more-button">Read more...</p>
 </div>
 
 <!-- OTHER COMMENTS -->
