@@ -39,6 +39,12 @@ tiers:
       - name: "Mario Kart 8 Deluxe"
         image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/m/mario-kart-8-deluxe-switch/Switch_MK8-Deluxe_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
 
+      - name: "Wolfenstein II: The New Colossus"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/w/wolfenstein-ii-the-new-colossus-switch/Switch_Wolfenstein2_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+      - name: "Atelier Rorona The Alchemist of Arland"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/a/atelier-rorona-the-alchemist-of-arland-dx-switch/Switch_AtelierRorona-Alchemist_box_eShop.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
   - title: B
     items:
       - name: "Moonlighter"

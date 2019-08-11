@@ -408,6 +408,34 @@ That being said, this game is indeed the best Mario Kart ever made. It's combine
 <p id="show-more-button">Read more...</p>
 </div>
 
+<!-- Wolfenstein II -->
+<h1 class="game-title" id="wolfenstein-ii-the-new-colossus">Wolfenstein II: The New Colossus</h1>
+<div class="game-review-container">
+<p id="game-review">
+This game is a pretty intense power fantasy. In a couple words, the game is a FPS centered around killing a bunch of Nazis to liberate America. It contains pretty mature content, including cursing and a lot of blood and gore. So if you're not ready for those themes, I wouldn't recommend this game. Other than that, I found the game pretty fun. It's my first console FPS game, I had a lot of fun getting used to the traditional FPS controller mechanics. I liked that they had many difficulty settings because I set it pretty low in order to get through the game and not die as often. The game is pretty well crafted, and Panic Button did an amazing job porting it to the Switch. I got it on sale and it took me around 15 hours to complete the game. The game contains extra missions in the end to extend your gamplay. Overall, I think this is a pretty great game and I had fun.
+</p>
+</div>
+
+<!-- Atelier Rorona -->
+<h1 class="game-title" id="atelier-rorona-the-alchemist-of-arland">Atelier Rorona The Alchemist of Arland</h1>
+<div class="game-review-container">
+<p id="game-review">
+At this point I've just accepted that RPG's (mostly JRPG's) are just my type of game. I like them because they usually include a set of charming characters, and there's an actual linear story and ending to the game. Atelier Rorona is a pretty chill slice of life game where Rorona tries to save her alchemy shop from closing down. In order to do this, she performs alchemy for the government to prove her worth.
+</p>
+
+<div id="more" class="text">
+
+The story is SUPER chill and shallow. There isn't a huge difficulty or problem the main character faces other than the assignments she has to complete. This makes the story less interesting, but I wasn't very bothered by it because I still wanted to complete it. I found the synthesis (alchemy) system pretty fun. It's similar to crafting materials in Minecraft. Whenever you gather the materials you need, or synthesize something, there's a cost to doing so, and the objective is to strategically manage your decisions so that you can complete the assignments on time. I found that pretty fun and just a tiny bit stressful.
+
+The artwork, flow, and mechanics of the game felt pretty nice. The battle system wasn't very deep but that was fine to me.
+
+This game has MANY multiple endings, and you can probably find all the endings on Youtube. They vary based off of your choices and performance in the game. This is probably my least favorite thing in the game - that I can't experience all the content in the game with reasonable effort. I think if you're away from your shop for long periods of time, you risk missing out on some cutscenes and small story content too and you'd have to replay the game to try to catch those small differences. I really wish there was a way to give each player a more unified experiences (but I'm fine with getting one out of multiple endings).
+
+Overall I'm a huge weeb and I'm willing to forgo certain game elements to play a nice JRPG. This game is the first in a trilogy (that also now has a fourth game) and I look forward to playing those games and seeing how they upgrade systems such as the battle system. I had fun!
+</div>
+<p id="show-more-button">Read more...</p>
+</div>
+
 <!-- OTHER COMMENTS -->
 
 # A Reflection of My Gaming Background...
