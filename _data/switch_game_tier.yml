@@ -19,6 +19,9 @@ tiers:
       - name: Hollow Knight
         image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/h/hollow-knight-switch/Switch_HollowKnight_box_eShop.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
 
+      - name: "ASTRAL CHAIN"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/a/astral-chain-switch/Switch_AstralChain_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
   - title: A
     items:
       - name: "Overcooked 2"

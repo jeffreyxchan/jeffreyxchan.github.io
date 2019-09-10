@@ -436,6 +436,26 @@ Overall I'm a huge weeb and I'm willing to forgo certain game elements to play a
 <p id="show-more-button">Read more...</p>
 </div>
 
+<!-- Astral Chain -->
+<h1 class="game-title" id="astral-chain">ASTRAL CHAIN</h1>
+<div class="game-review-container">
+<p id="game-review">
+Astral Chain is a 3D action-based JRPG produced by Platinum Games. It was my first time ever playing any of Platinum's games, and I was super impressed. In short, this game was just super cool. The choice of music complimented the art style and mood of the game very well. The action/combat mechanics were very complex, but were well thought out and add a lot of value and skill to the game. I've heard it can only run at 30FPS, but it looks really smooth and I never noticed it one bit during my playthrough. I actually really enjoyed the story aspect of the game too, and was impressed they were able to construct a good story when they already developed a solid combat system. I guess that's expected since previous Platinum games have similar 3D combat systems. I had an amazing time and would definitely recommend this to anyone who is looking for a challenge with the combat system.
+</p>
+
+<div id="more" class="text">
+
+In the game, you play as a character who is chained to a creature called a Legion, and you're able to control it and use its unique abilities. In combat, you have control over your Legion's actions and there are cool interactions and attacks you can perform alongside them.
+
+I thought the puzzles in the game were fun and rewarding. It's really cool how they applied the legion mechanics to some pretty challenging puzzles. Some of the puzzles include motion control, and I'm always a fan of games taking advantage of the Switch's hardware. In addition to puzzles, there are a ton of side missions and post-game missions that you could sink time into. I'm impressed that these game extras aren't super boring and repetitive. Each one has a pretty nice design and can utilize a unique mechanic of the game.
+
+The protagonist of the game doesn't speak at all during the game, and I always think that's a downside to any RPG, but Platinum has found other ways to bring in character development for both the protagonist and other members of the cast. I wouldn't say the development of any character in this game is deep, but it's enough to make them quirky and attractive. Definitely not a boring cast to play with.
+
+This part might spoil the story a little bit so skip if you don't want to have any of it spoiled. But at the climax of the game, you unlock one final ability you can perform between you and your legions. It was during a cutscene when they were showing the player what it would look like, and I remember mentally screaming "WOAH DO I GET TO PLAY THAT??" and was extremely satisfied when I was taken into combat with that new ability. That was probably the most memorable moment of the game for me, and it was at that point I decided this game was top-tier.
+</div>
+<p id="show-more-button">Read more...</p>
+</div>
+
 <!-- OTHER COMMENTS -->
 
 # A Reflection of My Gaming Background...
