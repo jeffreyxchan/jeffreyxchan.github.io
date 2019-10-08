@@ -456,6 +456,26 @@ This part might spoil the story a little bit so skip if you don't want to have a
 <p id="show-more-button">Read more...</p>
 </div>
 
+<!-- Ys VIII: Lacrimosa of DANA -->
+<h1 class="game-title" id="ys-viii-lacrimosa-of-dana">Ys VIII: Lacrimosa of DANA</h1>
+<div class="game-review-container">
+<p id="game-review">
+Ys VII: Lacrimosa of DANA is a 3D open world JRPG produced by Nihom Falcom. I heard lots of good things about this game and decided to give it a shot. I was definitely not disappointed and thoroughly enjoyed my 40 hours playing this game. The characters are charming and have steady character development. The world is super huge and is rewarding to explore. The combat is fast-paced and requires real-time reflexes to dodge and block enemy attacks. Additionally, the extra systems such as fishing, cooking, weapon upgrades, and different character combat styles makes it effortless to sink your time into the game and slowly enjoy the world the creators have crafted.
+</p>
+
+<div id="more" class="text">
+
+Personally, I definitely noticed a reduced quality in visuals for the Nintendo Switch. Because of this, I was left wishing I had played the game on a platform like the PS4, which would feature smoother animations (best for combat) as well as better textures and definitions across the island. Other aspects of the art, such as the cut scenes, are probably the same across platforms. It didn't bother me too much and I eventually got used to it. But a higher quality would've been nice.
+
+I felt like Dana's character was a bit sloppy, especially towards the end. After finishing the game, I was left wondering what to make of her as a character. Her reactions to the various MAJOR events in her life don't seem very convincing and she seems to not be impacted by them, when realistically a stronger character might've been more strongly impacted by such events. The events in Dana's upbringing are a bit more interesting than the other characters and I think the writers could've done a better job fleshing her out and convincing me that's she's worthy of being a main heroine.
+
+In the game, you have this Castaway Village comprised of the people you find in the world. I found one of the coolest features to be how the village evolves and changes as your progress through the story. I felt like every time I came back to the village, there was some new feature built by Dogi and the villagers, which made them come to life a little because it's like they weren't just sitting there doing nothing. I'm usually not a fan of the dialogue between characters that aren't directly related to progressing the story, but the dialogue of the villagers changes when you progress through the story, which does even more to bring them to life. The villagers didn't feel like mindless robots that repeated the same line for the 100th time when you talked to them. There are definitely more features built by Nihom Falcom that made this game cool, but I felt this feature was especially worth noting.
+
+<b>A comparison with Xenoblade Chronicles 2:</b> It might not be entirely fair to compare these two games, but I think it's fair to say that despite being slightly older, Ys VIII has elements of gameplay that XB2 lacked. The combat system in XB2 was slow and basically had you waiting to press buttons. The Ys VIII combat system just felt super nice to play and you actually had to put effort and concentration into beating enemies. The world of Ys VII was no optimized for the Switch. The assets definitely had to be scaled back in order for performance to keep up. The world rendered in XB2 is absolutely gorgeous and it's textures and definition don't sacrifice any performance.
+</div>
+<p id="show-more-button">Read more..</p>
+</div>
+
 <!-- OTHER COMMENTS -->
 
 # A Reflection of My Gaming Background...

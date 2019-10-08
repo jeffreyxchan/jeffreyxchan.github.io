@@ -22,6 +22,9 @@ tiers:
       - name: "ASTRAL CHAIN"
         image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/a/astral-chain-switch/Switch_AstralChain_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
 
+      - name: "Ys VIII: Lacrimosa of DANA"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/y/ys-viii-lacrimosa-of-dana-switch/Switch_YsVIII-LacrimosaOfDANA_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
   - title: A
     items:
       - name: "Overcooked 2"
