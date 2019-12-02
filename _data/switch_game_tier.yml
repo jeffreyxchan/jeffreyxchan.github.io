@@ -25,6 +25,9 @@ tiers:
       - name: "Ys VIII: Lacrimosa of DANA"
         image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/y/ys-viii-lacrimosa-of-dana-switch/Switch_YsVIII-LacrimosaOfDANA_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
 
+      - name: "Fire Emblem: Three Houses"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/f/fire-emblem-three-houses-switch/Switch_FireEmblem-3Houses_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
   - title: A
     items:
       - name: "Overcooked 2"
@@ -50,6 +53,9 @@ tiers:
 
       - name: "Atelier Rorona The Alchemist of Arland"
         image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/a/atelier-rorona-the-alchemist-of-arland-dx-switch/Switch_AtelierRorona-Alchemist_box_eShop.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
+
+      - name: "The Legend of Zelda: Link's Awakening"
+        image: "https://www.nintendo.com/content/dam/noa/en_US/games/switch/t/the-legend-of-zelda-links-awakening-switch/Switch_TLOZ-LinksAwakening_box.png/_jcr_content/renditions/cq5dam.thumbnail.319.319.png"
 
   - title: B
     items:

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "My Nintendo Switch Game Reviews"
+title: "Nintendo Switch Game Reviews"
 date: 2019-05-26
 author: Jeffrey Chan
 pathname: "2019-05-26-switch-game-reviews"
@@ -307,6 +307,7 @@ I ended up spending around 15 hours in the game and collected about 200 moons. T
 The ending is super satisfying. I don't want to spoil it, but I thought the music at the end was absolutely BOMB and put a smile on my face as I was finishing up the game.
 
 I wasn't able to put as many hours into this as BOTW, XC2, or Octopath, but I think this game is super worth it and is super fun. It can be the perfect game to take out on long commutes or random idle periods in life when you just want to go collect some moons and chill out.
+
 </div>
 </p>
     <p id="show-more-button">Read more...</p>
@@ -323,6 +324,7 @@ The characters aren't charming to me. I've never encountered the Rabbids until t
 From this game, I learned that I'm just not into this sort of combat system. You have to take advantage of the geography of the map as well as the positioning of your characters and the enemies. I can definitely see how this combat system would need a good amount of strategy and thinking in order to be successful, which is just fine. I'm just unsatisfied with how slow everything went. Like having to wait for all the animations, and then waiting for the enemy to complete their turn, was too painful for me. They even have an option to speed up the enemies turn, but that still didn't feel fast enough for me. I guess I just wanted it to end faster. I've seen a couple of JRPG's use a similar combat system, which is making me question whether I should give those a try, or just stay away completely because I already know I might not like them.
 
 Overall advice: This game can be very good (not too sure about the price). Just do your research and know what type of game it is before making this purchase. I'm just glad I was able to get it on sale.
+
 </div>
 </p>
     <p id="show-more-button">Read more...</p>
@@ -342,6 +344,7 @@ The game graphics are in bit art and it looks super cool if you're into that. Th
 My favorite weapons in the game is the Broadsword. It's just this huge sword that has a very slow attack speed, but hits super hard. The animation that they gave this sword and how it just slams into everything is super satisfying. Although it swings slow, you can combine it with your dodge roll or jumps to cancel mid-attack, or even continue your attack where you left off if your cancel is short enough. I think because of this weapon alone, I'll be pulling out Dead Cells during my long downtimes and just try to bust enemies with the big sword.
 
 I got this game on sale, but otherwise I think it's definitely worth the price. I gave this game and A rating, and the only reason why it's no an S is because it's actually a pretty small game, and I don't think that can stand in the same tier as the giants in S tier, but Dead Cells is still a super great game.
+
 </div>
 
     <p id="show-more-button">Read more...</p>
@@ -363,6 +366,7 @@ The boss battles were HARD, but I had a lot of fun playing them. There's somethi
 While playing this game, I searched up a walkthrough of the game, which I take no shame in because being able to find my way through the game makes it much more enjoyable instead of me having to quit and never finish it. I would put down the walkthrough when I wanted to play the game myself though.
 
 This game is worth WAY more than its \$15 retail price. The length, depth, challenge, and rewards in this game are just so deep and vast. Similar games go for a much higher price. I put around 25 hours into this game, and there's still so much more of the game to be played. There's even a bunch of DLC you can dive into if you're absolutely in love with the game. It is a pretty DIFFICULT game though, so you need to have a certain level of patience and affinity for hard games for me to suggest this game to you. But for those of you that can handle it, I'd say this is an absolutely amazing game worth trying.
+
 </div>
 </p>
     <p id="show-more-button">Read more...</p>
@@ -384,7 +388,8 @@ There were also a couple of bugs and glitches in the game that annoyed me. I was
 
 There are different types of weapons to choose from. However within each weapon class, there are different types of weapons you can choose from. I feel like these different types... literally make no difference at all. For example, there are three type of short sword in the game you can buy, two of which are actually different and unique, while the third is just a re-skin of the first one... so it's just repetitive content with no purpose.
 
-Despite all the negative things I've said about this game, I still love the concept and have been having a lot of fun playing it. I intend on finishing it and seeing the end of this story. This game is priced at $20, and I got it on sale which is an even better deal. My negative comments and low rating shouldn't discourage you from giving this game a try. I just think that a game with this many technical issues cannot stand with the games in my S and A tier.
+Despite all the negative things I've said about this game, I still love the concept and have been having a lot of fun playing it. I intend on finishing it and seeing the end of this story. This game is priced at \$20, and I got it on sale which is an even better deal. My negative comments and low rating shouldn't discourage you from giving this game a try. I just think that a game with this many technical issues cannot stand with the games in my S and A tier.
+
 </div>
 
 <p id="show-more-button">Read more...</p>
@@ -404,6 +409,7 @@ My main disappointment in the game... is that it's JUST Mario Kart. The game rea
 But another thing that disappoints me is the online multiplayer. If you want to play with your friends across switches, everyone will need a Nintendo Online subscription, which is super annoying. If you and all your friends already have Online, then this is probably not a problem and probably a huge benefit for you because you could hop into a game with your friends no matter where they are. I just graduate college and won't be seeing my friends in person too often anymore, and can't replicate this because no one else has Online.
 
 That being said, this game is indeed the best Mario Kart ever made. It's combined all the best aspects of all the Mario Kart games in the past. The online multiplayer is great because it gives you the opportunity to race against your friends whenever you want. I believe there's motion control steering on the Joycons but you can also just steer with the Joystick. If you're super into the game and get a lot of joy from racing with you friends or the computer on varying difficulties, then this is still one of the best racing games out in the market right now and you should definitely get it. Mario Kart is still a great game to break out among you friends to immediately have a good time and is the game everyone's most familiar with or can learn super quickly because of its simplicity and popularity. It has infinite replayability, which is probably the one thing holding it in my A tier instead of dropping down to B.
+
 </div>
 <p id="show-more-button">Read more...</p>
 </div>
@@ -432,6 +438,7 @@ The artwork, flow, and mechanics of the game felt pretty nice. The battle system
 This game has MANY multiple endings, and you can probably find all the endings on Youtube. They vary based off of your choices and performance in the game. This is probably my least favorite thing in the game - that I can't experience all the content in the game with reasonable effort. I think if you're away from your shop for long periods of time, you risk missing out on some cutscenes and small story content too and you'd have to replay the game to try to catch those small differences. I really wish there was a way to give each player a more unified experiences (but I'm fine with getting one out of multiple endings).
 
 Overall I'm a huge weeb and I'm willing to forgo certain game elements to play a nice JRPG. This game is the first in a trilogy (that also now has a fourth game) and I look forward to playing those games and seeing how they upgrade systems such as the battle system. I had fun!
+
 </div>
 <p id="show-more-button">Read more...</p>
 </div>
@@ -452,6 +459,7 @@ I thought the puzzles in the game were fun and rewarding. It's really cool how t
 The protagonist of the game doesn't speak at all during the game, and I always think that's a downside to any RPG, but Platinum has found other ways to bring in character development for both the protagonist and other members of the cast. I wouldn't say the development of any character in this game is deep, but it's enough to make them quirky and attractive. Definitely not a boring cast to play with.
 
 This part might spoil the story a little bit so skip if you don't want to have any of it spoiled. But at the climax of the game, you unlock one final ability you can perform between you and your legions. It was during a cutscene when they were showing the player what it would look like, and I remember mentally screaming "WOAH DO I GET TO PLAY THAT??" and was extremely satisfied when I was taken into combat with that new ability. That was probably the most memorable moment of the game for me, and it was at that point I decided this game was top-tier.
+
 </div>
 <p id="show-more-button">Read more...</p>
 </div>
@@ -472,8 +480,36 @@ I felt like Dana's character was a bit sloppy, especially towards the end. After
 In the game, you have this Castaway Village comprised of the people you find in the world. I found one of the coolest features to be how the village evolves and changes as your progress through the story. I felt like every time I came back to the village, there was some new feature built by Dogi and the villagers, which made them come to life a little because it's like they weren't just sitting there doing nothing. I'm usually not a fan of the dialogue between characters that aren't directly related to progressing the story, but the dialogue of the villagers changes when you progress through the story, which does even more to bring them to life. The villagers didn't feel like mindless robots that repeated the same line for the 100th time when you talked to them. There are definitely more features built by Nihom Falcom that made this game cool, but I felt this feature was especially worth noting.
 
 <b>A comparison with Xenoblade Chronicles 2:</b> It might not be entirely fair to compare these two games, but I think it's fair to say that despite being slightly older, Ys VIII has elements of gameplay that XB2 lacked. The combat system in XB2 was slow and basically had you waiting to press buttons. The Ys VIII combat system just felt super nice to play and you actually had to put effort and concentration into beating enemies. The world of Ys VII was no optimized for the Switch. The assets definitely had to be scaled back in order for performance to keep up. The world rendered in XB2 is absolutely gorgeous and it's textures and definition don't sacrifice any performance.
+
 </div>
 <p id="show-more-button">Read more..</p>
+</div>
+
+<!-- Fire Emblem: Three Houses -->
+<h1 class="game-title" id="fire-emblem-three-houses">Fire Emblem: Three Houses</h1>
+<div class="game-review-container">
+<p id="game-review">
+This game was my first in the Fire Emblem series. To enjoy this game, you don't need any prior experience with the past Fire Emblem games because it has its own unique lore, as far as I know. This game features FOUR different story routes to go down, and the game is designed to motivate you to play through the game multiple times in order to know the full story. I played through two routes, clocking in 70 hours, making it my second longest playtime on my switch. I had a great time playing this game, and would definitely recommend it to anyone interested in strategy and JRPG's. I
+</p>
+
+<div id="more" class="text">
+
+The game performs very well on the Nintendo Switch. Loading screens are a bit of a pain, but I noticed no lag and maybe only minor frame drops.
+
+This was my first time playing with a geographic/strategic battle system, and I found it really fun. However, I never really felt the opponent was smarter than me, or took better advantage of the map than I did. They opponents just seemed to have brute strength/defense/range, which made me think twice about where to move my units. But even then, the strategy was just to throw in my tankiest and strongest units to overwhelm the enemy.
+
+The individual character side stories are great, and made me really attached to my students. It got really painful when I lost one of them, and had to play the rest of the game without that unit (classic mode).
+
+</div>
+<p id="show-more-button">Read more...</p>
+</div>
+
+<!-- The Legend of Zelda: Link's Awakening -->
+<h1 class="game-title" id="the-legend-of-zelda-link-s-awakening">The Legend of Zelda: Link's Awakening</h1>
+<div class="game-review-container">
+<p id="game-review">
+Game's fun :) Wouldn't really recommend to anyone that's not just trying to play for the nostalgia.
+</p>
 </div>
 
 <!-- OTHER COMMENTS -->
